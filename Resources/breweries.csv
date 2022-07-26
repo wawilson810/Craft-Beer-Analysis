@@ -1,4 +1,4 @@
-,brewery_id,brewery_name,City,State,Address,Zip,Country,Lat,Lon
+index,brewery_id,brewery_name,city,state,address,zip,country,lat,lon
 0,1075,Caldera Brewing Company,Ashland,Oregon,590 Clover Lane,97520,United States,42.1819009,-122.662854
 1,1454,Broad Ripple Brew Pub,Indianapolis,Indiana,840 E 65th St,46220,United States,39.8736064,-86.1428601
 2,850,Moon River Brewing Company,Savannah,Georgia,21 West Bay St.,31401,United States,32.0809609,-81.0920433
@@ -26,10 +26,10 @@
 24,21138,Growler Craft Brewery,Murphys,California,164 E Highway 4,95247,United States,38.1333702,-120.4557008
 25,16859,Great South Bay Brewery,Bay Shore,New York,25 Drexel DR,11706,United States,40.7610743,-73.2634515
 26,19380,Mariposa Brewing Company,Mariposa,California,"5004 Fairgrounds Dr, PO Box 1576",95338-1576,United States,37.4849377,-119.9662843
-27,3087,4th Street Brewing Company,Sioux City,Iowa,301 Lewis Blvd,51101-2237,United States,42.4935742,-96.37904189999999
+27,3087,4th Street Brewing Company,Sioux City,Iowa,301 Lewis Blvd,51101-2237,United States,42.4935742,-96.3790419
 28,2188,Third Base Sports Bar & Brewery,Cedar Rapids,Iowa,500 Blairs Ferry Rd NE,52402-1466,United States,42.0351565,-91.6397562
 29,365,Pike Pub & Brewery,Seattle,Washington,1415 First Ave,98101,United States,47.6081294,-122.3400794
-30,5476,Bootleggers Restaurant & Brewery,Aurora,Missouri,101 S Madison Ave,65605-1426,United States,36.9751245,-93.72114239999999
+30,5476,Bootleggers Restaurant & Brewery,Aurora,Missouri,101 S Madison Ave,65605-1426,United States,36.9751245,-93.7211424
 31,16994,Ohio Brewing Company,Akron,Ohio,222 S Main St.,44308,United States,41.0793252,-81.5206584
 32,971,Crescent City Brewhouse,New Orleans,Louisiana,527 Decatur St,70130-1027,United States,29.9557667,-90.06403879999999
 33,14,Cambridge Brewing Company,Cambridge,Massachusetts,1 Kendall Sq,02139-1500,United States,42.3656686,-71.0823956
@@ -50,7 +50,7 @@
 48,23739,Marco Island Brewery,Marco Island,Florida,1089 N Collier Blvd,34145-2562,United States,25.9533695,-81.723207
 49,860,The Vermont Pub & Brewery,Burlington,Vermont,144 College St,05401-8416,United States,44.477262,-73.214394
 50,24072,Copper Crow Brewing Company,Lafayette Hill,Pennsylvania,646 Germantown Pike,19444,United States,40.0842208,-75.25032159999999
-51,9345,Wm. Kuether Brewing,Clear Lake,Wisconsin,360 Fourth Street,54005,United States,45.25046589999999,-92.27019949999999
+51,9345,Wm. Kuether Brewing,Clear Lake,Wisconsin,360 Fourth Street,54005,United States,45.25046589999999,-92.2701995
 52,1482,The Seven Barrel Brewery,West Lebanon,New Hampshire,5 Airport Rd,03784-1658,United States,43.6304453,-72.3184058
 53,26946,Big Hurt Brewing Company,Salinas,California,"340 El Camino Real S, Ste U",93901-4553,United States,36.6255732,-121.5922537
 54,5500,Black Forest Brew Haus & Grill,Frankenmuth,Michigan,281 Heinlein Strasse,48734,United States,43.3150024,-83.7337349
@@ -143,7 +143,7 @@
 141,24300,Evil Twin Brewing,Brooklyn,New York,446 Kent Ave,11249-5921,United States,40.7088267,-73.96938039999999
 142,1090,Rocky River Brewing,Rocky River,Ohio,21290 Center Ridge Road,44116,United States,41.4610007,-81.85613049999999
 143,729,Palmetto Brewing Company,Charleston,South Carolina,289 Huger St,29403-4560,United States,32.801215,-79.9458164
-144,9264,Royal Bavaria Restaurant & Brewery,Moore,Oklahoma,3401 S Sooner Rd,73165-7218,United States,35.3060397,-97.42406659999999
+144,9264,Royal Bavaria Restaurant & Brewery,Moore,Oklahoma,3401 S Sooner Rd,73165-7218,United States,35.3060397,-97.4240666
 145,3032,Hawks Brewing,Roseburg,Oregon,481 Industrial Drive,97470,United States,43.1521528,-123.377117
 146,2171,Four Peaks Brewing Company,Tempe,Arizona,1340 E 8th St,85281-4396,United States,33.419652,-111.9159198
 147,460,Belmont Brewing Company,Long Beach,California,25 39th Place,90803,United States,33.7593924,-118.1483674
@@ -165,7 +165,7 @@
 163,3174,Coopersmith's Pub & Brewing,Fort Collins,Colorado,5 Old Town Square,80524,United States,40.5873914,-105.0756291
 164,10629,Schmohz Brewing Company,Grand Rapids,Michigan,"2600 Patterson SE, Suite A",49546,United States,42.9160797,-85.54858399999999
 165,20688,16 Mile Brewing Company,Georgetown,Delaware,413 S Bedford St,19947-1849,United States,38.678769,-75.3781533
-166,56,Celis Brewery Inc.,Austin,Texas,2431 Forbes Drive,78754,United States,30.3326131,-97.66913869999999
+166,56,Celis Brewery Inc.,Austin,Texas,2431 Forbes Drive,78754,United States,30.3326131,-97.6691387
 167,18372,Keuka Brewing Company,Hammondsport,New York,8572 Briglin Road,14840,United States,42.4856309,-77.1921663
 168,22150,Stillwater Artisanal Ales,Baltimore,Maryland,unknown,21224,United States,39.2713976,-76.5603828
 169,13757,Pitchers Brewery & Sports Shack,Greeley,Colorado,2501 11th Avenue,80631,United States,40.3970417,-104.6973666
@@ -205,7 +205,7 @@
 203,18990,Joseph James Brewing Inc.,Henderson,Nevada,155 N Gibson Rd,89014,United States,36.0383807,-115.0306154
 204,24529,Black Tooth Brewing Company,Sheridan,Wyoming,312 Broadway St,82801-3917,United States,44.8010027,-106.953809
 205,1149,Harrison's Brewery and Restaurant,Orland Park,Illinois,15845 LaGrange Road,60462,United States,41.6031009,-87.85244329999999
-206,24381,Black Star Co-op Pub & Brewery,Austin,Texas,"7020 Easy Wind Drive, Suite 100",78752,United States,30.3384951,-97.71877529999999
+206,24381,Black Star Co-op Pub & Brewery,Austin,Texas,"7020 Easy Wind Drive, Suite 100",78752,United States,30.3384951,-97.7187753
 207,23904,North Sound Brewing Company,Mount Vernon,Washington,"17406 State Route 536, Unit A",98273,United States,48.431635,-122.3702341
 208,10425,McMenamins Old St. Francis School,Bend,Oregon,700 NW Bond St.,97701,United States,44.05611649999999,-121.3131968
 209,26516,Monday Night Brewing,Atlanta,Georgia,670 Trabert Ave NW,30318-4230,United States,33.7947936,-84.40988
@@ -226,14 +226,14 @@
 224,396,AleSmith Brewing Company,San Diego,California,9990 AleSmith Ct,92126,United States,32.8882176,-117.149821
 225,7375,Squatters Pub Brewery,Salt Lake City,Utah,147 W Broadway,84101-1914,United States,40.7625231,-111.8956578
 226,21448,Ladyface Ale Companie,Agoura Hills,California,29281 Agoura Rd.,91301,United States,34.1438834,-118.7629341
-227,782,"City Brewing Company, LLC",La Crosse,Wisconsin,925 South 3rd St,54601,United States,43.8041972,-91.25454669999999
+227,782,"City Brewing Company, LLC",La Crosse,Wisconsin,925 South 3rd St,54601,United States,43.8041972,-91.2545467
 228,1622,Titanic Brewing Company,Coral Gables,Florida,5813 Ponce De Leon Blvd,33146,United States,25.7106196,-80.28305739999999
 229,2641,New Old Lompoc Brewery,Portland,Oregon,1620 NW 23rd Ave,97210,United States,45.534347,-122.6985608
 230,24827,High Water Brewing,Lodi,California,927 Industrial Way,95240,United States,38.1259866,-121.2543206
 231,11361,Heiner Brau,Covington,Louisiana,226 E Lockwood St,70433-2828,United States,30.47780449999999,-90.0966187
 232,2743,Green Flash Brewing Co.,San Diego,California,6550 Mira Mesa Blvd.,92121,United States,32.9071098,-117.1777588
 233,1475,Maumee Bay Brewing Company,Toledo,Ohio,27 Broadway,43604,United States,41.6431998,-83.5380844
-234,5060,Padre Island Brewing Company,South Padre Island,Texas,3400 Padre Blvd,78597,United States,26.1093392,-97.16846179999999
+234,5060,Padre Island Brewing Company,South Padre Island,Texas,3400 Padre Blvd,78597,United States,26.1093392,-97.1684618
 235,3082,Main Street Brewery,Cincinnati,Ohio,1203 Main Street,45210,United States,39.1089244,-84.51185500000001
 236,22433,Orange Blossom Pilsner LLC,Orlando,Florida,4410 Flagg St,32812,United States,28.4881967,-81.33025049999999
 237,19213,Blue Hills Brewery,Canton,Massachusetts,1020 Turnpike St. #3B,02021,United States,42.1504456,-71.10409469999999
@@ -261,12 +261,12 @@
 259,855,McMenamins Mill Creek,Mill Creek,Washington,13300 Bothell-Everett Highway #304,98012,United States,47.8771497,-122.2120763
 260,24802,Idle Hands Craft Ales,Malden,Massachusetts,89 Commercial St,02148-5509,United States,42.42440209999999,-71.0746973
 261,3820,Bozeman Brewing Company,Bozeman,Montana,504 N Broadway Ave,59715-3006,United States,45.6845114,-111.0239444
-262,11239,Finnegans Inc.,Minneapolis,Minnesota,817 S 5th Ave,55404,United States,44.9723663,-93.26635859999999
+262,11239,Finnegans Inc.,Minneapolis,Minnesota,817 S 5th Ave,55404,United States,44.9723663,-93.2663586
 263,9611,Wild River Brewery And Restaurant,Cave Junction,Oregon,249 North Redwood Highway,97523,United States,42.1708034,-123.6455429
 264,4833,Silver Creek Brewing Co.,Cedarburg,Wisconsin,N57 W6172 Portland Road,53012,United States,43.2965697,-87.9858996
 265,19553,The Lab Gastropub,Los Angeles,California,3500 S. Figueroa Street,90007,United States,34.0200029,-118.2807289
 266,25812,Roc Brewing Company,Rochester,New York,56 S Union St,14607,United States,43.15332979999999,-77.59779879999999
-267,25668,Armadillo Ale Works,Denton,Texas,221 S Bell Ave,76201,United States,33.2126294,-97.12809329999999
+267,25668,Armadillo Ale Works,Denton,Texas,221 S Bell Ave,76201,United States,33.2126294,-97.1280933
 268,26932,Golden Road Brewing,Los Angeles,California,5430 W San Fernando Rd,90039-1015,United States,34.1511682,-118.2746735
 269,14440,Abbey Wright Brewing Co.,Duboistown,Pennsylvania,204 Valley Street,17702,United States,41.2223513,-77.0369714
 270,19526,Mt. Emily Ale House,La Grande,Oregon,1202 Adams Avenue,97850,United States,45.3283618,-118.0942947
@@ -342,7 +342,7 @@
 340,692,Ellicottville Brewing Co.,Ellicottville,New York,28 Monroe Street,14731,United States,42.27516079999999,-78.6704109
 341,2687,Heavenly Daze Brewery and Grill,Denver,Colorado,208 S. Kalamath St.,80203,United States,39.7122252,-104.998721
 342,23698,BJ's Restaurant And Brewhouse,Stockton,California,5733 Pacific Avenue,95207,United States,38.0019999,-121.3174619
-343,19798,Wimberley Brewing Company And Brewpub,Wimberley,Texas,9595 Ranch Road 12,98676,United States,29.94093149999999,-98.09191589999999
+343,19798,Wimberley Brewing Company And Brewpub,Wimberley,Texas,9595 Ranch Road 12,98676,United States,29.94093149999999,-98.0919159
 344,16813,Barrio Brewing Company,Tucson,Arizona,800 E 16th St,85719-6603,United States,32.214412,-110.9595118
 345,24679,Big Beaver Brewing Co.,Loveland,Colorado,2707 W Eisenhower Blvd Unit 9,80537,United States,40.4081161,-105.1145704
 346,3352,Humperdinks Restaurant and Sports Bar,Addison,Texas,3820 Belt Line Rd,75234,United States,32.9526292,-96.85080440000002
@@ -375,7 +375,7 @@
 373,1394,Skagit River Brewery,Mount Vernon,Washington,404 South Third Street,98273,United States,48.4193089,-122.3353785
 374,19378,Hop Valley Brewing Company,Springfield,Oregon,980 Kruse Way,97477,United States,44.0828278,-123.0398144
 375,18080,"Boone Brewing Company, LLC",Blowing Rock,North Carolina,128 Greenway Court,28605,United States,36.1326357,-81.6775983
-376,1333,"St. Croix Brewing Company, LLC",Saint Paul,Minnesota,363 Webster St,55102,United States,44.9304129,-93.12457440000001
+376,1333,"St. Croix Brewing Company, LLC",Saint Paul,Minnesota,363 Webster St,55102,United States,44.9304129,-93.1245744
 377,13066,Old Savannah Brewing Company,Savannah,Georgia,136 Nettles Industrial Boulevard,31405,United States,32.0535671,-81.1255283
 378,234,Owen O'Leary's,Natick,Massachusetts,319 Speen Street,01745,United States,42.3025969,-71.3775665
 379,35,Boston Beer Company (Samuel Adams),Jamaica Plain,Massachusetts,30 Germania St,02130-2315,United States,42.3145564,-71.10289519999999
@@ -425,14 +425,14 @@
 423,754,Erie Brewing Co.,Erie,Pennsylvania,6008 Knowledge Pkwy,16510,United States,42.1185977,-79.9679671
 424,27037,Triton Brewing Company,Indianapolis,Indiana,5764 Wheeler Rd,46216,United States,39.8601984,-86.007093
 425,21442,Bee Creek Brewery,Brazil,Indiana,PO Box 515,47834,United States,39.523652,-87.1250154
-426,18823,Freetail Brewing Company,San Antonio,Texas,4035 N Loop 1604 W. Suite 105.,78257,United States,29.6015959,-98.56132880000001
+426,18823,Freetail Brewing Company,San Antonio,Texas,4035 N Loop 1604 W. Suite 105.,78257,United States,29.6015959,-98.5613288
 427,487,Tampa Bay Brewing Co.,Tampa,Florida,1600 East 8th Ave,33605,United States,27.9605773,-82.44157059999999
 428,11650,Mobius Brewing,Greenville,South Carolina,2054 Piedmont Hwy,29605-4840,United States,34.7966066,-82.4234311
 429,26824,The Civil Life Brewing Company,Saint Louis,Missouri,3714 Holt Ave,63116-2614,United States,38.5906156,-90.2578601
 430,1912,Milwaukee Ale House,Milwaukee,Wisconsin,233 North Water Street,53202,United States,43.0334345,-87.90953710000001
 431,2617,Big River Grille & Brewing Works,Chattanooga,Tennessee,222 Broad St,37402-1009,United States,35.0539509,-85.3103332
 432,3353,Rockyard Brewing,Castle Rock,Colorado,880 West Castleton Road,80104,United States,39.4091341,-104.8698616
-433,14867,Griesedieck Brothers Brewery Co.,Saint Louis,Missouri,1240 Switzer Ave,63147,United States,38.7112898,-90.23861199999999
+433,14867,Griesedieck Brothers Brewery Co.,Saint Louis,Missouri,1240 Switzer Ave,63147,United States,38.7112898,-90.238612
 434,4300,San Marcos Brewery & Grill,San Marcos,California,1080 W. San Marcos Boulevard,92069,United States,33.1344351,-117.1909682
 435,27922,Smog City Brewing,Torrance,California,1901 Del Amo Blvd Ste B,90501,United States,33.84713,-118.313629
 436,1522,Main Street Brewery / Mesa Cerveza,Cortez,Colorado,21 E Main St,81321,United States,37.348325,-108.5845817
@@ -463,7 +463,7 @@
 461,14207,Sprague Farm & Brew Works,Venango,Pennsylvania,22019 US-6,16440,United States,40.6242374,-103.162265
 462,17978,River Bend Brewing Company,Hailey,Idaho,113 River Bend Rd,83333-5139,United States,43.5963152,-114.3466337
 463,22656,Chardon BrewWorks & Eatery,Chardon,Ohio,200 B Center St,44024,United States,41.58384179999999,-81.2093423
-464,4705,Jaipur Brewing Company,Omaha,Nebraska,10922 Elm St,68144-4822,United States,41.2328686,-96.08335059999999
+464,4705,Jaipur Brewing Company,Omaha,Nebraska,10922 Elm St,68144-4822,United States,41.2328686,-96.0833506
 465,14313,Powerhouse Brewing Company's Columbus Bar,Columbus,Indiana,322 4th Street,47201,United States,39.2025643,-85.9216137
 466,19666,Cháu Tiên USA,Carmel,California,PO Box 221185,93922,United States,36.45,-121.84
 467,17882,Carlson Craft Brewery,Branford,Connecticut,79 Gould Ln,06405-6125,United States,41.294355,-72.7630511
@@ -480,7 +480,7 @@
 478,891,Hudson Valley Brewing Company,Mohegan Lake,New York,1851 East Main Street,10547,United States,41.32131400000001,-73.8560114
 479,27036,Bentley Brewing Company / Dark Horse Tavern,Southbridge,Massachusetts,12 Crane Street,01550,United States,42.0804845,-72.0352068
 480,24832,Tap It Brewing Co.,San Luis Obispo,California,675 Clarion Court,93401,United States,35.2440999,-120.6456503
-481,11485,Grindstone Brewing Co.,Columbia,Missouri,47 E Broadway,65203-4253,United States,38.95201429999999,-92.33707059999999
+481,11485,Grindstone Brewing Co.,Columbia,Missouri,47 E Broadway,65203-4253,United States,38.95201429999999,-92.3370706
 482,4317,Six Rivers Brewery,McKinleyville,California,1300 Central Ave.,95519,United States,40.9260124,-124.1002006
 483,19247,The Olde Mecklenburg Brewery,Charlotte,North Carolina,4150 Yancey Rd,28217,United States,35.1872759,-80.8817942
 484,3062,Amos Howard's Brew Pub,Hickory,North Carolina,2828 West Highway 70,28602,United States,35.7215486,-81.38727519999999
@@ -530,7 +530,7 @@
 528,1415,Marmot Mesa Brewery & Ale House,Salt Lake City,Utah,163 Pierpont Ave,84101-1902,United States,40.7635669,-111.8960072
 529,25423,New Boswell Brewing Company,Richmond,Indiana,410 N 10th St,47374-3118,United States,39.8338015,-84.88946399999999
 530,22065,Redwood Curtain Brewing Company,Arcata,California,550 South G. Street Suite #6,95521,United States,40.8571217,-124.0886848
-531,25259,Olvalde Farm & Brewing Company,Rollingstone,Minnesota,16557 County Road 25,55969-4046,United States,44.09449840000001,-91.80983830000001
+531,25259,Olvalde Farm & Brewing Company,Rollingstone,Minnesota,16557 County Road 25,55969-4046,United States,44.09449840000001,-91.8098383
 532,22202,Element Brewing Company,Millers Falls,Massachusetts,16 Bridge St,01349-1336,United States,42.5787852,-72.4952011
 533,26528,Helltown Brewing,Mount Pleasant,Pennsylvania,13 Henry C Frick St,15666,United States,40.1508014,-79.5316496
 534,14855,"Bad Monkey Brewing Company, LLC",Atlanta,Georgia,2090 Dunwoody Club Dr,30350-5406,United States,33.9607546,-84.30102649999999
@@ -567,7 +567,7 @@
 565,22698,Grogg's Pinnacle Brewing Co.,Helper,Utah,1653 N Carbonville Rd,84526-2504,United States,39.6249866,-110.8425461
 566,15112,Hurricane Brewing Company,Mobile,Alabama,225 Dauphin St,36602-2717,United States,30.690984,-88.04373989999999
 567,485,Humboldt Brews LLC,Arcata,California,856 10th St,95521,United States,40.8702068,-124.0871428
-568,22513,Madhouse Brewing Company,Des Moines,Iowa,501 Scott Ave,50309-5047,United States,41.5810699,-93.60770099999999
+568,22513,Madhouse Brewing Company,Des Moines,Iowa,501 Scott Ave,50309-5047,United States,41.5810699,-93.607701
 569,26749,Burley Oak Brewery,Berlin,Maryland,10016 Old Ocean City Rd,21811,United States,38.3516095,-75.23885849999999
 570,21528,Palouse Falls Brewing Company,Pullman,Washington,1335 SE Bishop Blvd,99163,United States,46.7198595,-117.1645747
 571,22319,Figure 8 Brewing,Valparaiso,Indiana,150 S Washington St,46383,United States,41.46655750000001,-87.06121619999999
@@ -575,7 +575,7 @@
 573,4614,Orlando Brewing Partners,Orlando,Florida,1301 Atlanta Avenue,32806,United States,28.5264039,-81.3826012
 574,350,Coeur d'Alene Brewing Co.,Coeur d'Alene,Idaho,209 Lakeside Ave,83814-2832,United States,47.67454799999999,-116.7837173
 575,22459,JoBoy's Brew Pub,Lititz,Pennsylvania,27-31 E Main St,17543,United States,40.1571698,-76.30613579999999
-576,24804,Carmody Irish Pub & Brewing,Duluth,Minnesota,308 E Superior St,55802,United States,46.78989989999999,-92.09388469999999
+576,24804,Carmody Irish Pub & Brewing,Duluth,Minnesota,308 E Superior St,55802,United States,46.78989989999999,-92.0938847
 577,676,Foundry Ale Works,Pittsburgh,Pennsylvania,2816 Smallman Street,15222,United States,40.4576032,-79.97575789999999
 578,5327,Lighthouse Brewpub (McMenamins),Lincoln City,Oregon,4157 NW Hwy 101,97367-5172,United States,44.9967275,-124.0050939
 579,1196,"Great Beer Company, The",Chatsworth,California,21119 Superior Street,91311,United States,34.2466355,-118.5936998
@@ -604,7 +604,7 @@
 602,4928,Liberty Steakhouse & Brewery,Myrtle Beach,South Carolina,1321 Celebrity Cir,29577-7445,United States,33.7161895,-78.882582
 603,2510,Main Street Brewery & Lamppost Pizza,Corona,California,493 N. Main St.,92880,United States,33.8863936,-117.564347
 604,20680,Fremont Brewing Company,Seattle,Washington,3409 Woodland Park Avenue North,98103,United States,47.64918549999999,-122.3444563
-605,16333,Tallgrass Brewing Company,Manhattan,Kansas,5960 Dry Hop Cir,66503,United States,39.142907,-96.67934969999999
+605,16333,Tallgrass Brewing Company,Manhattan,Kansas,5960 Dry Hop Cir,66503,United States,39.142907,-96.6793497
 606,18539,Devils Backbone Brewing Company,Roseland,Virginia,200 Mosbys Run,22967,United States,37.8708768,-78.918857
 607,23922,Baxter Brewing Co.,Lewiston,Maine,130 Mill St,04240-7774,United States,44.0952036,-70.219123
 608,1291,Motor City Brewing Works,Detroit,Michigan,470 West Canfield,48201,United States,42.3518486,-83.0660664
@@ -646,11 +646,11 @@
 644,2308,Chicago Brewing Company,Las Vegas,Nevada,2201 S Fort Apache Rd,89117-5704,United States,36.147496,-115.2980657
 645,4432,Lengthwise Brewing Company,Bakersfield,California,7700 District Blvd,93313,United States,35.3135906,-119.0881046
 646,425,H.C. Berger Brewing Co.,Fort Collins,Colorado,1900 East Lincoln Ave.,80524,United States,40.5831516,-105.0423678
-647,468,Minnesota Brewing Company,Saint Paul,Minnesota,882 West 7th Street,55102,United States,44.9294539,-93.12374969999999
+647,468,Minnesota Brewing Company,Saint Paul,Minnesota,882 West 7th Street,55102,United States,44.9294539,-93.1237497
 648,19587,Hofbräuhaus Pittsburgh,Pittsburgh,Pennsylvania,2705 S Water St SouthSide Works,15203,United States,40.4286877,-79.9644709
 649,23876,BierWerks Brewery,Woodland Park,Colorado,121 E Midland Ave,80863,United States,38.9941418,-105.0519408
 650,2144,McCoy's Public House,Kansas City,Missouri,4057 Pennsylvania Ave,64111-3021,United States,39.0531492,-94.5915309
-651,25888,Perennial Artisan Ales,Saint Louis,Missouri,8125 Michigan Ave,63111-3500,United States,38.545541,-90.26534339999999
+651,25888,Perennial Artisan Ales,Saint Louis,Missouri,8125 Michigan Ave,63111-3500,United States,38.545541,-90.2653434
 652,3776,Third Street Aleworks,Santa Rosa,California,610 3rd Street,95404,United States,38.4398499,-122.7125607
 653,9529,Cumberland Brews,Louisville,Kentucky,1576 Bardstown Rd,40205-1154,United States,38.23086989999999,-85.70555259999999
 654,2980,Alameda Brewhouse,Portland,Oregon,4765 NE Fremont St,97213,United States,45.5485049,-122.6136212
@@ -664,7 +664,7 @@
 662,25327,DC Brau Brewing Co.,Washington,District of Columbia,3178 Bladensburg Rd NE Ste B,20018-2214,United States,38.9296431,-76.9601673
 663,717,Oak Creek Brewing Co.,Sedona,Arizona,2050 Yavapai Dr,86336-4558,United States,34.8666138,-111.7968891
 664,2936,J.T. Whitney's Pub & Brewery,Madison,Wisconsin,674 S. Whitney Way,53711,United States,43.05099209999999,-89.4739962
-665,5469,"Power Plant Restaurant & Brewery, The",Parkville,Missouri,2 Main St,64152-3754,United States,39.1888799,-94.68441899999999
+665,5469,"Power Plant Restaurant & Brewery, The",Parkville,Missouri,2 Main St,64152-3754,United States,39.1888799,-94.684419
 666,13768,Gardner Ale House,Gardner,Massachusetts,74 Parker St,01440,United States,42.5757357,-71.9970475
 667,788,Slab City Brewing Company,Bonduel,Wisconsin,W3590 Pit Lane,54107,United States,44.7121805,-88.4199134
 668,1608,The Shed Restaurant & Brewery,Stowe,Vermont,1859 Mountain Rd,05672-4890,United States,44.4737541,-72.7139332
@@ -713,7 +713,7 @@
 711,26548,Rolling Meadows Brewery,Cantrall,Illinois,3954 Central Point Rd,62625-8803,United States,39.871241,-89.73038480000001
 712,15765,BJ's Restaurant & Brewhouse,Phoenix,Arizona,21001 N Tatum Blvd,85050-4206,United States,33.6790764,-111.9767701
 713,26634,Wichita Brewing Co. & Pizzeria,Wichita,Kansas,8815 W 13th St N,67212-4072,United States,37.7082793,-97.4450311
-714,4358,Schlafly Bottleworks,Saint Louis,Missouri,1 Schlafly Plz,63143-2454,United States,38.6270025,-90.19940419999999
+714,4358,Schlafly Bottleworks,Saint Louis,Missouri,1 Schlafly Plz,63143-2454,United States,38.6270025,-90.1994042
 715,1834,"Shipwrecked Brew Pub, Restaurant and Inn",Egg Harbor,Wisconsin,7791 Egg Harbor Rd,54209,United States,45.049439,-87.2805058
 716,5598,Detroit Brew Factory,Eastpointe,Michigan,18065 E 8 Mile Rd,48021-3220,United States,42.4508277,-82.93444190000001
 717,15042,Vintage 50 Restaurant And Brew Lounge,Leesburg,Virginia,50 Catoctin Circle NE #100,20176,United States,39.1126533,-77.55409270000001
@@ -722,7 +722,7 @@
 720,2309,Ellis Island Casino & Brewery,Las Vegas,Nevada,4178 Koval Ln,89109-4568,United States,36.1130091,-115.1633017
 721,5117,Founders Restaurant & Brewing Co.,Alexandria,Virginia,607 King Street,22314-3105,United States,38.8052098,-77.04614699999999
 722,837,Golden Pacific Brewing Company,Berkeley,California,1404 Fourth Street,94710,United States,37.8769143,-122.3030892
-723,11933,Coach's Restaurant,Edmond,Oklahoma,3005 S Broadway,73013-4034,United States,35.6254468,-97.48602939999999
+723,11933,Coach's Restaurant,Edmond,Oklahoma,3005 S Broadway,73013-4034,United States,35.6254468,-97.4860294
 724,2084,Thunder Canyon Brewery,Tucson,Arizona,220 E. Broadway Blvd,85701,United States,32.2209457,-110.9665439
 725,16872,Honest Town Brewery & The Dark Horse Tavern,Southbridge,Massachusetts,12 Crane Street,01550,United States,42.0804845,-72.0352068
 726,4014,Mystic Brewing Company,Kalamazoo,Michigan,5266 Gull Rd,49048,United States,42.320905,-85.52586149999999
@@ -737,7 +737,7 @@
 735,3232,BJ's Restaurant & Brewery,Oxnard,California,461 W Esplanade Drive,93030,United States,34.2365049,-119.1800829
 736,4067,Fordham Brewing Company,Dover,Delaware,1284 McD Dr,19901-4639,United States,39.1536551,-75.4880864
 737,3585,BJ's Restaurant & Brewery,West Covina,California,2917 Eastland Cntr Dr.,91791,United States,34.0723502,-117.8836456
-738,583,Saint Louis Brewery / Schlafly Tap Room,Saint Louis,Missouri,2100 Locust St,63103-1616,United States,38.6330091,-90.20974009999999
+738,583,Saint Louis Brewery / Schlafly Tap Room,Saint Louis,Missouri,2100 Locust St,63103-1616,United States,38.6330091,-90.2097401
 739,2210,Firestone Walker Brewing Co.,Paso Robles,California,1400 Ramada Dr,93446,United States,35.5958774,-120.6943059
 740,13907,Crabtree Brewing Company,Greeley,Colorado,2961 W 29th St,80631,United States,40.3906939,-104.7272428
 741,27007,Twelve String Brewing Company,Spokane Valley,Washington,"11616 E Montgomery Dr, Ste # 26",99206,United States,47.6765322,-117.2485495
@@ -747,7 +747,7 @@
 745,16094,Double Mountain Brewery & Taproom,Hood River,Oregon,8 4th Street,97031,United States,45.71000189999999,-121.5146336
 746,1293,"Great Grains Brewery, Inc.",Dallas,Texas,"2650 Lombardy Lane, Suite O",75220,United States,32.8656944,-96.8864584
 747,2790,Harper's Restaurant & Brewpub,East Lansing,Michigan,131 Albert Ave.,48823,United States,42.73625699999999,-84.4828019
-748,467,Summit Brewing Company,Saint Paul,Minnesota,910 Montreal Circle,55102,United States,44.9139657,-93.13954179999999
+748,467,Summit Brewing Company,Saint Paul,Minnesota,910 Montreal Circle,55102,United States,44.9139657,-93.1395418
 749,6980,Keegan Ales,Kingston,New York,20 St. James Street,12401,United States,41.931475,-74.011848
 750,3192,Calhoun's Microbrewery,Knoxville,Tennessee,6515 Kingston Pike,37919-4826,United States,35.9323173,-84.0119337
 751,21952,People's Brewing Company,Lafayette,Indiana,2006 N. 9th Street,47904,United States,40.4381158,-86.8870785
@@ -762,7 +762,7 @@
 760,2766,Ironworks Brewpub,Lakewood,Colorado,12354 W Alameda Pkwy,80232,United States,39.7034682,-105.1361745
 761,8818,Dale Bros. Brewery,Upland,California,2120 Porter Field Way,91786,United States,34.1089328,-117.6907225
 762,12315,Old Mill Brewery & Grill,Littleton,Colorado,5798 Rapp Street,80120,United States,39.6119985,-105.0195344
-763,680,Bricktown Brewery,Oklahoma City,Oklahoma,1 N Oklahoma Ave,73104-2413,United States,35.4667332,-97.51080689999999
+763,680,Bricktown Brewery,Oklahoma City,Oklahoma,1 N Oklahoma Ave,73104-2413,United States,35.4667332,-97.5108069
 764,2513,Sun Up Brewing Co.,Phoenix,Arizona,322 E Camelback Rd,85012-1614,United States,33.5094924,-112.0687589
 765,19752,St. Francis Brewery & Restaurant,St. Francis,Wisconsin,3825 S. Kinnickinnic Ave,53235,United States,42.9740668,-87.8758794
 766,10588,Hoppers Grill & Brewing Co.,Midvale,Utah,890 Fort Union Blvd,84047-1745,United States,40.6218075,-111.866407
@@ -789,7 +789,7 @@
 787,6976,Karl Strauss Brewing Company,Costa Mesa,California,901A South Coast Dr,92626,United States,33.6895418,-117.8957876
 788,14516,Elysian Fields,Seattle,Washington,542 First Avenue South,98104,United States,47.5969411,-122.3338065
 789,1950,Court Avenue Brewing Company,Des Moines,Iowa,309 Court Ave,50309-2245,United States,41.5853461,-93.6209511
-790,5371,Hermann Brewing Company,Hermann,Missouri,120 E 4th St,65041-1130,United States,38.7041138,-91.43657920000001
+790,5371,Hermann Brewing Company,Hermann,Missouri,120 E 4th St,65041-1130,United States,38.7041138,-91.4365792
 791,5331,Hillsdale Brewery & Public House (McMenamins),Portland,Oregon,1505 SW Sunset Blvd,97201,United States,45.4792558,-122.6937083
 792,5312,Elliot Glacier Public House,Parkdale,Oregon,4945 Baseline Road,97041,United States,45.51942589999999,-121.5952016
 793,4326,Oak Creek Brewery And Grill,Sedona,Arizona,336 Highway 179,86336-6144,United States,34.8616708,-111.7631779
@@ -818,7 +818,7 @@
 816,174,Latrobe Brewing Co.,Saint Louis,Missouri,1 Busch Pl,63118-1849,United States,38.5984672,-90.2099132
 817,15324,Five Seasons North,Alpharetta,Georgia,3655 Old Milton Pkwy,30005,United States,34.0638068,-84.2527794
 818,21567,Odin Brewing Company,Tukwila,Washington,402 Baker Blvd,98188,United States,47.4586647,-122.2521124
-819,14967,Brau Brothers Brewing Co. LLC,Marshall,Minnesota,1010 E Southview Dr,56258-2401,United States,44.436301,-95.77640629999999
+819,14967,Brau Brothers Brewing Co. LLC,Marshall,Minnesota,1010 E Southview Dr,56258-2401,United States,44.436301,-95.7764063
 820,6266,Flagstaff Brewing Company,Flagstaff,Arizona,16 E Route 66,86001-5792,United States,35.197441,-111.6484643
 821,24047,Crossroads Brewing Company,Athens,New York,21 2nd Street,12015,United States,42.2605704,-73.8100881
 822,9869,Astoria Brewing Company / Wet Dog Cafe,Astoria,Oregon,144 11th St,97103,United States,46.1901859,-123.8314721
@@ -843,7 +843,7 @@
 841,10046,Left Coast Brewing Company,San Clemente,California,1245 Puerta Del Sol,92673,United States,33.4576645,-117.5887916
 842,2145,River Market Brewing Company,Kansas City,Missouri,500 Walnut St,64106-1209,United States,39.1083806,-94.5818005
 843,20707,The Fat Cat Beer Company,La Jolla,California,828 Prospect St Ste E,92037,United States,32.8458881,-117.2767738
-844,1818,O'Hara's Brewpub And Restaurant,Saint Cloud,Minnesota,3308 N Third St,56303,United States,45.5585524,-94.19880069999999
+844,1818,O'Hara's Brewpub And Restaurant,Saint Cloud,Minnesota,3308 N Third St,56303,United States,45.5585524,-94.1988007
 845,4325,Barley Brothers Brewery & Grill,Lake Havasu City,Arizona,1425 McCulloch Blvd N,86403-6597,United States,34.4712684,-114.3495799
 846,30,Avery Brewing Company,Boulder,Colorado,4910 Nautilus Ct N,80301,United States,40.0625885,-105.204763
 847,1114,Bullfrog Brewery,Williamsport,Pennsylvania,231 West 4th Street,17701,United States,41.2402471,-77.0056019
@@ -901,7 +901,7 @@
 899,10284,Independence Brewing Co.,Austin,Texas,3913 Todd Ln,78744-1061,United States,30.2113174,-97.7369598
 900,130,Boulder Beer / Wilderness Pub,Boulder,Colorado,2880 Wilderness Pl,80301,United States,40.0265844,-105.2481425
 901,10378,Old Capitol Brew Works and Public House,Iowa City,Iowa,525 S Gilbert St,52240-4919,United States,41.6546797,-91.5305276
-902,16118,Worth Brewing Company,Northwood,Iowa,835 Central Ave,50459,United States,43.4437771,-93.22024789999999
+902,16118,Worth Brewing Company,Northwood,Iowa,835 Central Ave,50459,United States,43.4437771,-93.2202479
 903,7051,Tractor Brewing Co.,Los Lunas,New Mexico,120 Nelson Ln,87031-8299,United States,34.80305500000001,-106.7053587
 904,829,Haines Brewing Company,Haines,Alaska,108 Whitefang Way,99827-0911,United States,59.2351471,-135.447332
 905,17270,Wakonda Brewing Company,Florence,Oregon,1725 Kingwood St. #4,97439,United States,43.98115869999999,-124.109359
@@ -912,17 +912,17 @@
 910,741,"Lakefront Brewery, Inc.",Milwaukee,Wisconsin,1872 N Commerce St.,53212,United States,43.0546291,-87.9052068
 911,16289,Laurelwood Public House & Brewery,Portland,Oregon,5115 NE Sandy Blvd,97213,United States,45.5401251,-122.6105869
 912,2919,"Wild Duck Brewery, Restaurant And Music Hall",Eugene,Oregon,169 West 6th Avenue,97401,United States,44.05348619999999,-123.0951833
-913,1880,Empyrean Brewing Company,Lincoln,Nebraska,729 Q St,68508-1331,United States,40.815539,-96.71052499999999
+913,1880,Empyrean Brewing Company,Lincoln,Nebraska,729 Q St,68508-1331,United States,40.815539,-96.710525
 914,14400,Ninkasi Brewing Company,Eugene,Oregon,272 Van Buren St.,97402,United States,44.0570165,-123.1099179
 915,1683,Santa Fe Brewing Company,Santa Fe,New Mexico,35 Fire Place,87508-4493,United States,35.5965867,-106.0515728
 916,11036,Foothills Brewing Company,Winston-Salem,North Carolina,638 W 4th St,27101-2730,United States,36.0975305,-80.25091499999999
 917,22893,Epic Brewing Co.,Salt Lake City,Utah,825 S State St,84111-4207,United States,40.7511748,-111.8876621
 918,22777,The Boon Island Ale House,Wells,Maine,124 Post Rd,04090-3802,United States,43.2751052,-70.59786129999999
-919,12502,Blue Heron BrewPub,Marshfield,Wisconsin,108 W 9th Street,54449,United States,44.6595008,-90.17953419999999
+919,12502,Blue Heron BrewPub,Marshfield,Wisconsin,108 W 9th Street,54449,United States,44.6595008,-90.1795342
 920,5394,Bugsy's Sports Bar & Brown Street Brewery,Rhinelander,Wisconsin,16 N. Brown St.,54501,United States,45.6381693,-89.4123821
 921,21641,Hamburger Mary's Rec Room,Chicago,Illinois,5400 N Clark St,60640-1210,United States,41.9799644,-87.6685351
 922,1619,C.H. Evans Brewing Company,Albany,New York,19 Quackenbush Square,12207,United States,42.654103,-73.74776
-923,24825,Circle Brewing Company,Austin,Texas,"2340 W Braker Ln., Suite B",78758,United States,30.3911437,-97.71535999999999
+923,24825,Circle Brewing Company,Austin,Texas,"2340 W Braker Ln., Suite B",78758,United States,30.3911437,-97.71536
 924,11241,Angry Minnow Brewpub,Hayward,Wisconsin,10440 Florida Ave.,54843,United States,46.0105497,-91.4888447
 925,25435,Turkey Hill Brewing Co. Pub & Grille,Bloomsburg,Pennsylvania,991 Central Road,17815,United States,41.0247633,-76.42625439999999
 926,19788,MBF Company / Boxer Brews,Salinas,California,"340 El Camino Real S, Suite U",93901,United States,36.6255732,-121.5922537
@@ -943,7 +943,7 @@
 941,23635,Lavery Brewing Company,Erie,Pennsylvania,128 W. 12th St.,16501,United States,42.1228902,-80.08391689999999
 942,16533,Hub City Brewing Company,Stanley,Iowa,11352 40th St,50671-9506,United States,42.687993,-91.8125038
 943,18540,"Manchester Brewing, LLC",Concord,New Hampshire,119 Old Turnpike Rd Ste 3G,03301-5206,United States,43.2041456,-71.5142723
-944,11370,Hill Brewing Company,Saint Louis,Missouri,11970 Borman Dr,63146-4153,United States,38.693793,-90.44037209999999
+944,11370,Hill Brewing Company,Saint Louis,Missouri,11970 Borman Dr,63146-4153,United States,38.693793,-90.4403721
 945,1618,Sarasota Brewing Company,Sarasota,Florida,6607 Gateway Avenue,34231-5805,United States,27.259747,-82.51611729999999
 946,371,Montgomery Brewing Company,Montgomery,Alabama,12 W Jefferson St,36104-2516,United States,32.3810595,-86.31011040000001
 947,872,Lind Brewing Company,San Leandro,California,1933 Davis Street #1177,94577,United States,37.7152997,-122.179217
@@ -988,7 +988,7 @@
 986,104,The Brewery Exchange,Lowell,Massachusetts,201 Cabot St,01854,United States,42.6506097,-71.3166803
 987,16792,Boak Beverage,Pompton Lakes,New Jersey,262 Wanaque Ave.,07442,United States,41.0038176,-74.2919559
 988,17962,Uncommon Brewers,Santa Cruz,California,3030 Potrero,95060,United States,36.9809366,-122.0305866
-989,9774,Huebert Brewing Company,Oklahoma City,Oklahoma,421 SW 26th St,73109-6712,United States,35.4386358,-97.52090489999999
+989,9774,Huebert Brewing Company,Oklahoma City,Oklahoma,421 SW 26th St,73109-6712,United States,35.4386358,-97.5209049
 990,2253,Blackfoot River Brewing Company,Helena,Montana,66 S Park Ave,59601-6271,United States,46.5862537,-112.0418291
 991,16402,Red Eye Brewing Company,Wausau,Wisconsin,612 Washington Street,54403,United States,44.9588903,-89.6228472
 992,256,Lost Coast Brewery and Cafe,Eureka,California,617 4th Street,95482,United States,40.8032429,-124.1647365
@@ -1002,7 +1002,7 @@
 1000,9570,Apex Brewing Company,Apex,North Carolina,5448 Apex Peakway #223,27502,United States,35.7366945,-78.8646766
 1001,19837,Mayfield Brewing Company,Belmont,California,111 Industrial Way,94002-8206,United States,37.5215714,-122.2660091
 1002,9035,Aiken Brewing Company,Aiken,South Carolina,140 Laurens St SW,29801-3848,United States,33.560275,-81.7226939
-1003,24880,Mother's Brewing Company,Springfield,Missouri,215 S Grant Ave,65806-2001,United States,37.2078676,-93.29931839999999
+1003,24880,Mother's Brewing Company,Springfield,Missouri,215 S Grant Ave,65806-2001,United States,37.2078676,-93.2993184
 1004,23090,Thirsty Planet Brewing Company,Austin,Texas,11160 Circle Drive,78736,United States,30.2247105,-97.9530291
 1005,7404,Downtown Grill & Brewery,Knoxville,Tennessee,424 S Gay St,37902-1103,United States,35.9656689,-83.9181382
 1006,23475,MillKing It Productions,Royal Oak,Michigan,4847 Delemere Ave,48073,United States,42.5341488,-83.17733539999999
@@ -1024,9 +1024,9 @@
 1022,9914,Sequoia Brewing Company,Fresno,California,777 E. Olive Ave.,93728,United States,36.7578857,-119.8020855
 1023,1485,"Eddie McStiff's Restaurant, Brew Pub & Bar",Moab,Utah,57 S Main St,84532-2502,United States,38.5724674,-109.5498854
 1024,18915,Indigo Imp Brewery,Cleveland,Ohio,3615 Superior Avenue,44114,United States,41.5128956,-81.6654452
-1025,14445,Native Stone Winery & Bull Rock Brewery,Jefferson City,Missouri,4301 Native Stone Rd,65109-8424,United States,38.6646941,-92.33834139999999
+1025,14445,Native Stone Winery & Bull Rock Brewery,Jefferson City,Missouri,4301 Native Stone Rd,65109-8424,United States,38.6646941,-92.3383414
 1026,27912,Harvester Brewing,Portland,Oregon,715 SE Lincoln St,97214,United States,45.508089,-122.6582916
-1027,3196,Flat Branch Pub & Brewery,Columbia,Missouri,115 S 5th St,65201-4230,United States,38.950155,-92.33221619999999
+1027,3196,Flat Branch Pub & Brewery,Columbia,Missouri,115 S 5th St,65201-4230,United States,38.950155,-92.3322162
 1028,2909,"White Winter Winery, Inc.",Iron River,Wisconsin,7665 U.S. Hwy 2,54847,United States,46.5639687,-91.4109644
 1029,1311,Celtic Bayou,Redmond,Washington,7281 W Lake Sammamish Pkwy NE,98052,United States,47.6691858,-122.130512
 1030,13501,The Cellar Grill,Jacksonville,Florida,2 Independent Dr.,32202,United States,30.3248442,-81.6594975
@@ -1100,7 +1100,7 @@
 1098,26765,Revival Brewing Co.,Cranston,Rhode Island,505 Atwood Ave,02920-5327,United States,41.7898026,-71.47171089999999
 1099,18857,Blue House Mediterranean Cafe,Vernonia,Oregon,919 Bridge Street,97064,United States,45.858497,-123.1955194
 1100,22170,Lucky Hand Brewing Company,Novato,California,530 Alameda Del Prado,94949,United States,38.0657401,-122.5394396
-1101,18345,"Charlie's Steak, Ribs & Ale",Branson,Missouri,3009 76 Country Blvd,65616-3549,United States,36.6392217,-93.27593689999999
+1101,18345,"Charlie's Steak, Ribs & Ale",Branson,Missouri,3009 76 Country Blvd,65616-3549,United States,36.6392217,-93.2759369
 1102,21517,Denali Brewing Company / Twister Creek Restaurant,Talkeetna,Alaska,13605 E Main St,99676-1021,United States,62.3234764,-150.114117
 1103,24903,Anchorage Brewing Company,Anchorage,Alaska,148 W 91st Ave,99515-1901,United States,61.138651,-149.8815043
 1104,255,SLO Brewing Company,Paso Robles,California,1400 Ramada Drive,93446,United States,35.5958774,-120.6943059
@@ -1112,11 +1112,11 @@
 1110,683,Valkyrie Brewing,Dallas,Wisconsin,234 Dallas St W,54733,United States,45.2587907,-91.8180795
 1111,684,Fish Brewing Company / Fishbowl Brewpub,Olympia,Washington,515 Jefferson St. SE,98501,United States,47.0437162,-122.8967509
 1112,8423,Rocky Run Tap And Grill,Glen Burnie,Maryland,7900 Ritchie Highway (Marley Station Mall),21061,United States,39.1386677,-76.60605819999999
-1113,21862,Galena Brewing Company,Galena,Illinois,227 North Main Street,61036,United States,42.4168278,-90.42618159999999
+1113,21862,Galena Brewing Company,Galena,Illinois,227 North Main Street,61036,United States,42.4168278,-90.4261816
 1114,16354,COAST Brewing Company,North Charleston,South Carolina,1250 2nd St N,29405-1804,United States,32.8736297,-79.97203119999999
 1115,7979,Hoppers Grille And Brewery,Tampa,Florida,12227 West Linebaugh Rd.,33626,United States,28.0568415,-82.6263098
 1116,14340,Alt Platz Brewing Company LLC,Portsmouth,Virginia,615 High St,23704,United States,36.8350249,-76.30447240000001
-1117,24879,Refined Ale Brewery,Little Rock,Arkansas,2221 S Cedar St,72204-5452,United States,34.7306368,-92.31832999999999
+1117,24879,Refined Ale Brewery,Little Rock,Arkansas,2221 S Cedar St,72204-5452,United States,34.7306368,-92.31833
 1118,18800,Big Daddy's,Roanoke,Virginia,2229 Colonial Ave,24015,United States,37.2541994,-79.9571483
 1119,9985,Olde Towne Brewing Co.,Huntsville,Alabama,3200 Leeman Ferry Rd SW,35801-5332,United States,34.6947925,-86.593611
 1120,21568,Horse Heaven Hills Brewery,Prosser,Washington,1118 Meade Ave,99350,United States,46.2049965,-119.7705797
@@ -1143,7 +1143,7 @@
 1141,20389,Orcutt Brew Company,Orcutt,California,315 S. Broadway,93455,United States,34.9501836,-120.436114
 1142,9121,SBC Restaurant & Brewery - Branford,Branford,Connecticut,850 W Main St,06405-3422,United States,41.2769185,-72.8369974
 1143,16591,The Brewhouse At Eastlake,Chula Vista,California,871 Showroom Place Suite 102,91914,United States,32.6518815,-116.9537394
-1144,19012,Bull & Bones Brewhaus & Grill,Blacksburg,Virginia,1470 South Main Street,24060,United States,37.24842810000001,-80.4129196
+1144,19012,Bull & Bones Brewhaus & Grill,Blacksburg,Virginia,1470 South Main Street,24060,United States,37.2133897,-80.40253109999999
 1145,25433,Payette Brewing,Boise,Idaho,111 W 33rd St,83714-6618,United States,43.6209601,-116.2390103
 1146,16111,Smoky Mountain Brewery & Restaurant,Pigeon Forge,Tennessee,2530 Parkway,37863-7007,United States,35.8060908,-83.57797479999999
 1147,5134,Sierra Madre Brewery,Sierra Madre,California,21 Kersting Court,91024-1929,United States,34.162179,-118.0533744
@@ -1178,7 +1178,7 @@
 1176,16334,Northern Ales & Grocery,Kettle Falls,Washington,325 W. 3rd Ave,99141,United States,48.6099267,-118.0600232
 1177,1678,Sacramento Brewing Co.,Sacramento,California,2713 El Paseo Lane,95821,United States,38.6191001,-121.4010534
 1178,400,Belfast Bay Brewing Co.,Belfast,Maine,100 Searsport Ave,04915-7221,United States,44.4309678,-68.9880357
-1179,758,Uncle Buck's Brewery & Steakhouse,Grapevine,Texas,2501-1 Bass Pro Drive,76051,United States,32.957442,-97.04343329999999
+1179,758,Uncle Buck's Brewery & Steakhouse,Grapevine,Texas,2501-1 Bass Pro Drive,76051,United States,32.957442,-97.0434333
 1180,1251,Woodstock Inn Brewery,North Woodstock,New Hampshire,135 Main St,03262-0118,United States,44.03243699999999,-71.6869124
 1181,24831,American Brewing Company,Edmonds,Washington,180 West Dayton St.,98020,United States,47.8089235,-122.3867544
 1182,17005,Two Beers Brewing Co.,Seattle,Washington,4700 Ohio Ave S,98134-2358,United States,47.560597,-122.337722
@@ -1265,7 +1265,7 @@
 1263,1131,Park Tavern,Atlanta,Georgia,500 10th St.,30309,United States,33.7809847,-84.4045703
 1264,4552,McGuire's Irish Pub of Destin,Destin,Florida,33 Highway 98 E,32541-2309,United States,30.3959827,-86.512016
 1265,4858,Draught House Pub & Brewery,Austin,Texas,4112 Medical Parkway,78741,United States,30.31104999999999,-97.7428798
-1266,594,Route 66 Brewery,Saint Louis,Missouri,1820 Market St,63103-2274,United States,38.6283822,-90.20820119999999
+1266,594,Route 66 Brewery,Saint Louis,Missouri,1820 Market St,63103-2274,United States,38.6283822,-90.2082012
 1267,764,Blue Point Brewing Company,Patchogue,New York,225 W Main St,11772,United States,40.7663255,-73.0211569
 1268,5904,Brewery At The Bay / Put-In-Bay Brewing Co.,Put-In-Bay,Ohio,441 Catawba Avenue,43456,United States,41.6520294,-82.8201757
 1269,372,Olde Auburn Ale House,Auburn,Alabama,124 Tichenor Ave,36830-4704,United States,32.6079976,-85.48083989999999
@@ -1282,7 +1282,7 @@
 1280,1850,Hops Grillhouse & Brewery,Charlotte,North Carolina,9950 E. Independence Blvd.,28105,United States,35.1315595,-80.7114362
 1281,11341,Hideout Brewing Company,Grand Rapids,Michigan,3113 Plaza Dr NE,49525-2901,United States,43.0178686,-85.63098090000001
 1282,17021,Brass Monkey Brewing Co.,Kokomo,Indiana,115 East Sycamore Street,46901,United States,40.4863967,-86.13049079999999
-1283,19241,Lucky Bucket Brewing Co.,La Vista,Nebraska,11941 Centennial Rd,68128-5623,United States,41.1688173,-96.02826549999999
+1283,19241,Lucky Bucket Brewing Co.,La Vista,Nebraska,11941 Centennial Rd,68128-5623,United States,41.1688173,-96.0282655
 1284,24806,Wooden Shoe Brewing Company,Minster,Ohio,69 South Garfield,45865,United States,40.3914126,-84.3755204
 1285,22843,Breakside Brewery,Portland,Oregon,820 NE Dekum St,97211,United States,45.5715545,-122.6568404
 1286,18316,Al's of Hampden / Pizza Boy Brewing,Enola,Pennsylvania,2240 Millennium Way,17025,United States,40.2885364,-76.971372
@@ -1294,7 +1294,7 @@
 1292,16818,Berwick Brewing Company,Berwick,Pennsylvania,328 W. Front St,18603,United States,41.0519431,-76.2380448
 1293,4929,Liberty Steakhouse Brewery,High Point,North Carolina,914 Mall Loop Road,27265,United States,35.9879156,-80.004319
 1294,23684,Squam Brewing,Holderness,New Hampshire,118 Perch Pond Rd,03245-5234,United States,43.7468343,-71.6082366
-1295,11141,Hank is Wiser Brewery,Cheney,Kansas,213 N Main St,67025-9730,United States,37.6284285,-97.78155199999999
+1295,11141,Hank is Wiser Brewery,Cheney,Kansas,213 N Main St,67025-9730,United States,37.6284285,-97.781552
 1296,24456,Jobless Burring Co.,Louisville,Kentucky,1510 Christy Ave,40204-2043,United States,38.2413722,-85.7267394
 1297,9877,Rush River Brewing Company,River Falls,Wisconsin,990 Antler Court,54022,United States,44.89107629999999,-92.6387019
 1298,19252,Blind Lady Ale House & Automatic Brewing Co.,San Diego,California,3416 Adams Ave.,92116,United States,32.763498,-117.1203007
@@ -1330,7 +1330,7 @@
 1328,18237,Jefferson St. Brewing Company,Lynchburg,Virginia,1390 Commerce Street. 2-A,24504,United States,37.4106012,-79.1374561
 1329,22589,The Prodigal Son Brewery,Pendleton,Oregon,230 SE Court Ave,97801,United States,45.6732076,-118.7848177
 1330,25730,Ass Clown Brewing,Cornelius,North Carolina,10620 Bailey Rd Ste E,28031-9364,United States,35.45755279999999,-80.85481829999999
-1331,5443,Bent River Brewing Company,Moline,Illinois,1413 5th Ave,61265-1335,United States,41.506189,-90.51718199999999
+1331,5443,Bent River Brewing Company,Moline,Illinois,1413 5th Ave,61265-1335,United States,41.506189,-90.517182
 1332,9388,"Dempsey's Brewery, Restaurant & Pub",Watertown,South Dakota,127 N Broadway,57201-3525,United States,44.90298079999999,-97.1140866
 1333,25370,Finch's Beer Co.,Chicago,Illinois,1800 W Walnut St,60612,United States,41.8862891,-87.6722178
 1334,22408,Bayou Teche Brewery,Arnaudville,Louisiana,1106 Bushville Hwy,70512-3518,United States,30.389908,-91.926108
@@ -1406,7 +1406,7 @@
 1404,206,Hook & Ladder Brewing Company (No. 2),Silver Spring,Maryland,8757 Georgia Ave,20910,United States,38.9985997,-77.0300671
 1405,22598,Cismontane Brewing Company,Rancho Santa Margarita,California,29851 Aventura Ste D,92688-2014,United States,33.6368011,-117.6094236
 1406,11580,Santa Cruz Mountain Brewing,Santa Cruz,California,402 Ingalls St,95060,United States,36.9591026,-122.0485056
-1407,19832,Crown Valley Brewing & Distilling Co.,Sainte Genevieve,Missouri,13326 State Route F,63670-9001,United States,37.9354098,-90.22282469999999
+1407,19832,Crown Valley Brewing & Distilling Co.,Sainte Genevieve,Missouri,13326 State Route F,63670-9001,United States,37.9354098,-90.2228247
 1408,10549,Charleville Vineyard Microbrewery,Sainte Genevieve,Missouri,16937 Boyd Rd,63670-7914,United States,37.75348,-90.1487609
 1409,15032,Powerhouse Restaurant And Brewery,Puyallup,Washington,454 E Main St,98372-3258,United States,47.1915975,-122.2880604
 1410,24391,Big Bay Brewing Co.,Shorewood,Wisconsin,PO Box 71290,53211,United States,43.0891787,-87.8875848
@@ -1425,14 +1425,14 @@
 1423,4862,King Arthur's Steakhouse And Brewery,Oswego,New York,7 West Bridge Street,13126,United States,43.4568429,-76.5109987
 1424,16843,Hangar 24 Brewery,Redlands,California,1710 Sessums Dr,92374,United States,34.08313640000001,-117.141779
 1425,23316,"Leieritz Brewing Company, LLC",Denver,Colorado,3100 Blake St,80205,United States,39.764527,-104.9805513
-1426,24488,Tin Roof Brewing Company,Baton Rouge,Louisiana,1624 Wyoming St,70802-8127,United States,30.4328027,-91.18923339999999
+1426,24488,Tin Roof Brewing Company,Baton Rouge,Louisiana,1624 Wyoming St,70802-8127,United States,30.4328027,-91.1892334
 1427,3355,Wolf Rock Brewing Company,Keystone,Colorado,91 River Run,80435,United States,39.6067338,-105.9433766
 1428,6313,La Jolla Brew House,La Jolla,California,7536 Fay Ave,92037,United States,32.8407895,-117.2744546
 1429,27919,Fiddlehead Brewing Company,Shelburne,Vermont,6305 Shelburne Rd,05482-4437,United States,44.3661574,-73.2325827
 1430,24826,Fantasy Brewmasters,Naples,Florida,950 Commercial Blvd,34104-7096,United States,26.1618892,-81.75327829999999
 1431,26620,Denver Beer Co.,Denver,Colorado,1695 Platte St,80202,United States,39.7582718,-105.0073351
 1432,12997,Ram Big Horn Brewery,Fishers,Indiana,12750 Parkside Drive,46038,United States,39.9735324,-86.0029699
-1433,26762,Karbach Brewing Co.,Houston,Texas,2032 Karbach St,77092-8406,United States,29.8057859,-95.46033469999999
+1433,26762,Karbach Brewing Co.,Houston,Texas,2032 Karbach St,77092-8406,United States,29.8057859,-95.4603347
 1434,24695,Olde World Ales & Lagers,Langley,Washington,179 B Second St,98260,United States,48.03962079999999,-122.4076484
 1435,173,Hair of the Dog Brewing Company / Brewery and Tasting Room,Portland,Oregon,61 SE Yamhill St,97214,United States,45.5160452,-122.6655162
 1436,2102,High Noon Saloon & Brewery,Leavenworth,Kansas,206 Choctaw St,66048-2821,United States,39.3168789,-94.9107753
@@ -1468,8 +1468,8 @@
 1466,6371,Jack's Brewing Company,Fremont,California,39176 Argonaut Way,94538,United States,37.5441188,-121.9875215
 1467,10543,Three Rivers Eatery And Brewhouse,Farmington,New Mexico,101 E Main St,87401-2701,United States,36.72880079999999,-108.2053868
 1468,22994,Roth Brewing Company,Raleigh,North Carolina,5907 Triangle Dr,27617,United States,35.8965394,-78.74403110000002
-1469,18565,Old Man River Restaurant,McGregor,Iowa,123 A St,52157,United States,43.0245239,-91.17493739999999
-1470,10613,Great Northern Brewery and Restaurant,Fargo,North Dakota,425 Broadway N,58102-4414,United States,46.8809884,-96.78609469999999
+1469,18565,Old Man River Restaurant,McGregor,Iowa,123 A St,52157,United States,43.0245239,-91.1749374
+1470,10613,Great Northern Brewery and Restaurant,Fargo,North Dakota,425 Broadway N,58102-4414,United States,46.8809884,-96.7860947
 1471,25386,The Griswold Inn,Essex,Connecticut,36 Main St,06426-1132,United States,41.3512706,-72.38683739999999
 1472,1863,Southend Brewery & Smokehouse,Charlotte,North Carolina,2100 South Boulevard,28203,United States,35.2082138,-80.8608272
 1473,3816,Brenham Brewing Company,Brenham,Texas,201 W. First Street,77833,United States,30.1645023,-96.3985648
@@ -1481,7 +1481,7 @@
 1479,4298,Gem Of The Sea Brewing Co.,Vista,California,2090 Fairhope Loop,92083,United States,33.1588545,-117.2472459
 1480,16526,Elk Creek Cafe & Aleworks,Millheim,Pennsylvania,100 W. Main St.,16854,United States,40.8911156,-77.47699480000001
 1481,1610,McGuire's Irish Pub,Pensacola,Florida,600 E Gregory St,32502-4140,United States,30.4183536,-87.2018071
-1482,710,Jacob Leinenkugel Brewing Company,Chippewa Falls,Wisconsin,124 E. Elm St.,54729-1318,United States,44.9432755,-91.39562889999999
+1482,710,Jacob Leinenkugel Brewing Company,Chippewa Falls,Wisconsin,124 E. Elm St.,54729-1318,United States,44.9432755,-91.3956289
 1483,996,Valhalla Microbrewery & Restaurant,Pittsburgh,Pennsylvania,1150 Smallman Street,15222,United States,40.4459606,-79.993286
 1484,755,Big Buck Brewery & Steakhouse #1,Gaylord,Michigan,550 S Wisconsin Ave,49735,United States,45.0218314,-84.6846564
 1485,13446,Wind River Brewing Company,Pinedale,Wyoming,402 W Pine St,82941-9050,United States,42.8661946,-109.8660014
@@ -1524,10 +1524,10 @@
 1522,3106,Cerveceria La Tropical Brewmasters,Coral Gables,Florida,117 Majorca Avenue,33134,United States,25.7554204,-80.2572878
 1523,1899,Blackwater Brewing Company,Davis,West Virginia,"912 William Ave, PO Box 356",26260-0356,United States,39.1282609,-79.4722781
 1524,9899,C.I. Shenanigan's Seafood & Chophouse,Spokane,Washington,332 N. Spokane Falls Court,99201,United States,47.6616799,-117.4126204
-1525,19456,Coop Ale Works,Oklahoma City,Oklahoma,4745 Council Heights Rd,73179,United States,35.4185812,-97.65782039999999
+1525,19456,Coop Ale Works,Oklahoma City,Oklahoma,4745 Council Heights Rd,73179,United States,35.4185812,-97.6578204
 1526,1270,Red Bell Brewery & Pub,Philadelphia,Pennsylvania,Wachovia Center,19148,United States,39.9012015,-75.17197949999999
 1527,125,Pennsylvania Brewing Company,Pittsburgh,Pennsylvania,800 Vinial Street,15212,United States,40.457172,-79.9915189
-1528,892,Cold Spring Brewing Co.,Cold Spring,Minnesota,219 Red River Avenue North,56320,United States,45.4588894,-94.42973239999999
+1528,892,Cold Spring Brewing Co.,Cold Spring,Minnesota,219 Red River Avenue North,56320,United States,45.4588894,-94.4297324
 1529,611,Wagner Valley Brewery,Lodi,New York,9322 Route 414,14860,United States,42.5712307,-76.85916859999999
 1530,1453,Siletz Brewing And Public House,Siletz,Oregon,243 North Gaither Street,97380,United States,44.72332610000001,-123.9182349
 1531,16828,The Scalehouse Brewpub,Ithaca,New York,23 Cinema Dr,14850,United States,42.47948359999999,-76.47784639999999
@@ -1537,7 +1537,7 @@
 1535,1319,Boscos Restaurant & Brewing Co. - Nashville,Nashville,Tennessee,1805 21st Ave S,37212-3705,United States,36.1362941,-86.8013587
 1536,2137,Breckenridge Brewery,Littleton,Colorado,2920 Brewery Ln,80120,United States,39.5937805,-105.0233237
 1537,18258,Napa Smith Brewery,Vallejo,California,101 Yolano Drive,94589,United States,38.1317186,-122.2585649
-1538,10379,The Depot Restaurant & Lounge,Shenandoah,Iowa,101 N Railroad St,51601-1158,United States,40.7664525,-95.37592060000001
+1538,10379,The Depot Restaurant & Lounge,Shenandoah,Iowa,101 N Railroad St,51601-1158,United States,40.7664525,-95.3759206
 1539,3451,Laurelwood Pizza Co. (CLOSED),Portland,Oregon,1728 NE 40th Ave,97212,United States,45.5357234,-122.6217602
 1540,787,South Shore Brewery,Ashland,Wisconsin,808 W. Main Street,54806,United States,46.5872711,-90.8922333
 1541,9513,Keweenaw Brewing Company,Houghton,Michigan,408 Shelden Avenue,49931,United States,47.1220827,-88.56876299999999
@@ -1592,7 +1592,7 @@
 1590,5156,Tahquamenon Falls Brewery & Pub,Paradise,Michigan,M-123,49768,United States,46.6290366,-85.042502
 1591,19721,Mill Creek Brewpub,Walla Walla,Washington,11 South Palouse,99362,United States,46.0693714,-118.3348392
 1592,9805,Lost Falls Brewing Company,Colville,Washington,"347 W. 2nd St, Suite D",98114,United States,48.5449971,-117.9009544
-1593,18566,Boathouse Brewpub & Restaurant,Ely,Minnesota,47 E. Sheridan St.,55731,United States,47.9035011,-91.86566040000001
+1593,18566,Boathouse Brewpub & Restaurant,Ely,Minnesota,47 E. Sheridan St.,55731,United States,47.9035011,-91.8656604
 1594,21818,Peace Tree Brewing Co.,Knoxville,Iowa,107 W Main St,50138-2528,United States,41.3191682,-93.0993075
 1595,13315,Sports Brew Pub,Wyandotte,Michigan,166 Maple St.,48192,United States,42.2023099,-83.15128969999999
 1596,2315,Triple 7 Restaurant and Brewery,Las Vegas,Nevada,200 N Main St,89101-2910,United States,36.1751418,-115.1452825
@@ -1605,7 +1605,7 @@
 1603,25317,Ruckus Brewing,New York,New York,261 W 35th Street,10001,United States,40.75283690000001,-73.9923274
 1604,980,Boulder Creek Brewing,Boulder Creek,California,13040 Highway 9,95006,United States,37.1232448,-122.1213313
 1605,24690,Throwback Brewery,North Hampton,New Hampshire,7 Hobbs Rd,03862,United States,42.9810739,-70.834525
-1606,844,Bitter End Brewery and Bistro,Austin,Texas,311 Colorado St.,78701,United States,30.2661508,-97.74461439999999
+1606,844,Bitter End Brewery and Bistro,Austin,Texas,311 Colorado St.,78701,United States,30.2661508,-97.7446144
 1607,23014,Der Blokken Brewery,Bremerton,Washington,1100 Perry Ave,98310,United States,47.5704712,-122.6136351
 1608,812,Marin Brewing Company,Larkspur,California,1809 Larkspur Landing,94939,United States,37.9475367,-122.5096228
 1609,784,Tyranena Brewing Company,Lake Mills,Wisconsin,1025 Owen Street,53551,United States,43.0861777,-88.8966937
@@ -1630,7 +1630,7 @@
 1628,16378,Heater Allen Brewing,McMinnville,Oregon,907 NE 10th Ave.,97128,United States,45.2146023,-123.1888048
 1629,1484,Harlem Brewing Company,New York,New York,360 W. 125th Street,10027,United States,40.8108064,-73.95322100000001
 1630,16862,Deschutes Brewery & Public House,Portland,Oregon,210 NW 11th Ave,97209,United States,45.5246501,-122.6818748
-1631,1903,Spilker Ales,Cortland,Nebraska,300 W 4th St,68331-3099,United States,40.5057512,-96.70703569999999
+1631,1903,Spilker Ales,Cortland,Nebraska,300 W 4th St,68331-3099,United States,40.5057512,-96.7070357
 1632,25937,Greenbush Brewing Company,Sawyer,Michigan,5885 Sawyer Rd,49125,United States,41.8857021,-86.5945173
 1633,982,Coast Range Brewing Co.,Gilroy,California,7050 Monterey Street,95020,United States,36.9853419,-121.5571282
 1634,1499,Carolina Brewing Company,Holly Springs,North Carolina,140 Thomas Mill Road,27540,United States,35.6560063,-78.8543135
@@ -1645,7 +1645,7 @@
 1643,24862,The Commons Brewery,Portland,Oregon,630 SE Belmont St,97214-2372,United States,45.51631,-122.6590488
 1644,12984,Rocky Coulee Brewing Co.,Odessa,Washington,205 N. First Street,99159,United States,47.3374979,-118.6888026
 1645,21329,Cool Springs Brewery,Franklin,Tennessee,600A Frazier Dr,37067-4677,United States,35.945341,-86.8214849
-1646,461,Thunderhead Brewing Company,Kearney,Nebraska,18 E 21st St,68847-5402,United States,40.6967995,-99.08088959999999
+1646,461,Thunderhead Brewing Company,Kearney,Nebraska,18 E 21st St,68847-5402,United States,40.6967995,-99.0808896
 1647,6431,Kodiak Island Brewing Co.,Kodiak,Alaska,338 Shelikof St,99615-6000,United States,57.7875538,-152.4144632
 1648,1520,Franconia Notch Brewing Company,Littleton,New Hampshire,260 Dells Rd,03561-3513,United States,44.3093071,-71.79762389999999
 1649,27277,Cinderella Russian Bakery & Cafe,San Francisco,California,436 Balboa St,94118,United States,37.7774282,-122.4636638
@@ -1655,7 +1655,7 @@
 1653,424,Crooked River Brewing Co.,Cleveland,Ohio,1101 Center St.,44113,United States,41.4939593,-81.7017899
 1654,1305,Vino's Brewpub,Little Rock,Arkansas,923 W 7th St,72201-4005,United States,34.7433567,-92.2821419
 1655,7122,Red Lodge Ales,Red Lodge,Montana,1445 N Broadway Ave,59068-2278,United States,45.202019,-109.2458131
-1656,16840,Buffalo Brewing Co.,Saint Louis,Missouri,3100 Olive St,63103-1213,United States,38.6348582,-90.22422879999999
+1656,16840,Buffalo Brewing Co.,Saint Louis,Missouri,3100 Olive St,63103-1213,United States,38.6348582,-90.2242288
 1657,587,Long Valley Pub & Brewery,Long Valley,New Jersey,1 Fairmount Rd,07853,United States,40.783933,-74.7804506
 1658,7758,Eldos Grill And Brewery,San Francisco,California,1326 9th Avenue,94122,United States,37.7635068,-122.4660298
 1659,22844,New Planet Beer Company,Boulder,Colorado,"6560 Odell Place, Unit D",80301,United States,40.0731466,-105.2009169
@@ -1751,7 +1751,7 @@
 1749,4832,Triumph Brewing Company,New Hope,Pennsylvania,400 Union Sq. Drive,18938,United States,40.36553749999999,-74.9539846
 1750,3584,Electric Brewing Company,Bisbee,Arizona,"1326 W Highway 92, Ste 8",85603,United States,31.397155,-109.9298255
 1751,867,Three Needs Brewery & Taproom,Burlington,Vermont,185 Pearl St,05401-8306,United States,44.48023490000001,-73.2116824
-1752,2599,"Fredericksburg Brewing Company, Inc.",Fredericksburg,Texas,245 East Main Street,78624,United States,30.2727302,-98.86932329999999
+1752,2599,"Fredericksburg Brewing Company, Inc.",Fredericksburg,Texas,245 East Main Street,78624,United States,30.2727302,-98.8693233
 1753,668,Back Road Brewery,LaPorte,Indiana,308 Perry St.,46350,United States,41.6117064,-86.7269413
 1754,16986,Del Norte Brewing,Denver,Colorado,1390 West Evans Ave.,80223,United States,39.6761284,-105.0054282
 1755,12362,Azalea Coast Brewery,Wilmington,North Carolina,3406-C Merchant Court,28405,United States,34.3143596,-77.8751814
@@ -1805,7 +1805,7 @@
 1803,12698,Yamhill Brewing Company,Portland,Oregon,909 SE Yamhill St.,97214-2533,United States,45.51596199999999,-122.6563702
 1804,23640,Manzanita Brewing Company,Santee,California,10151 Prospect Ave,92071,United States,32.8307987,-116.9763687
 1805,1124,High Point Brewing Company,Denver,Colorado,4910-E Fox Street,80216,United States,39.7854475,-104.9932403
-1806,27696,Hops & Grain,Austin,Texas,507 Calles St,78702-3909,United States,30.2584481,-97.71188509999999
+1806,27696,Hops & Grain,Austin,Texas,507 Calles St,78702-3909,United States,30.2584481,-97.7118851
 1807,25945,Surf Brewery,Ventura,California,4561 Market Street #A,93003,United States,34.257906,-119.231068
 1808,24707,Grafton Brewhaus,Grafton,Illinois,300 W Main St,62037-1124,United States,38.9701417,-90.439109
 1809,10266,Olde Main Brewing Co. & Restaurant,Ames,Iowa,316 Main St,50010-6148,United States,42.0247543,-93.6147359
@@ -1864,7 +1864,7 @@
 1862,3439,Prairie Rock Brewery,Schaumburg,Illinois,1385 N Meacham Road,60173,United States,42.0560876,-88.04433209999999
 1863,6971,Johnstown Brewing Company,Johnstown,Pennsylvania,942 Pinegrove Lane,15905,United States,40.3147721,-78.93598399999999
 1864,5499,C.J.'s Brewing Company,Commerce Township,Michigan,8115 Richardson Road,48382,United States,42.5770412,-83.4428033
-1865,9167,23rd Street Brewery,Lawrence,Kansas,3512 Clinton Pkwy,66047-2145,United States,38.9430406,-95.28105599999999
+1865,9167,23rd Street Brewery,Lawrence,Kansas,3512 Clinton Pkwy,66047-2145,United States,38.9430406,-95.281056
 1866,14559,Mac's Village Brewhaus,Orchard Park,New York,4246 North Buffalo Street,14127,United States,42.7679924,-78.7445211
 1867,988,Denver Chop House & Brewery,Denver,Colorado,"1735 19th St., #100",80202,United States,39.754998,-104.99734
 1868,484,Gray's Brewing Company,Janesville,Wisconsin,2424 W Court St,53545,United States,42.679741,-89.0505195
@@ -1899,13 +1899,13 @@
 1897,2699,Laguna Beach Brewing Company,Laguna Beach,California,422 South Coast Highway,92651,United States,33.5414356,-117.7824597
 1898,565,Michigan Brewing Company,Webberville,Michigan,1093 Highview Drive,48892,United States,42.6616227,-84.19444399999999
 1899,18356,Buffalo Water Beer Company,Milwaukee,Wisconsin,PO Box 1346,53201-1346,United States,43.0389025,-87.9064736
-1900,2423,Amerisports Brew Pub,Kansas City,Missouri,3200 Ameristar Dr,64161,United States,39.1505235,-94.48480459999999
+1900,2423,Amerisports Brew Pub,Kansas City,Missouri,3200 Ameristar Dr,64161,United States,39.1505235,-94.4848046
 1901,2700,Taps Fish House & Brewery,Brea,California,101 East Imperial Highway,92821,United States,33.9167834,-117.8997884
-1902,24925,Redbud Brewing Company,Oklahoma City,Oklahoma,421 SW 26th St,73109-6712,United States,35.4386358,-97.52090489999999
+1902,24925,Redbud Brewing Company,Oklahoma City,Oklahoma,421 SW 26th St,73109-6712,United States,35.4386358,-97.5209049
 1903,25204,Tullycross Tavern & Microbrewery,Manchester,Connecticut,1487 Pleasant Valley Rd,06042-1664,United States,41.8051318,-72.55731469999999
 1904,756,Big Buck Brewery & Steakhouse #2,Grand Rapids,Michigan,2500 28th Street SE (2 miles west of I-96),49512,United States,43.0177186,-85.6777276
 1905,1342,Harvest Moon Brewery & Cafe,New Brunswick,New Jersey,392 George St.,08901,United States,40.4961207,-74.444346
-1906,1483,Springfield Brewing Company,Springfield,Missouri,305 S Market,65806-2023,United States,37.2077536,-93.29589759999999
+1906,1483,Springfield Brewing Company,Springfield,Missouri,305 S Market,65806-2023,United States,37.2077536,-93.2958976
 1907,7121,Harvest Moon Brewery,Belt,Montana,57 Castner St,59412-8031,United States,47.386581,-110.926535
 1908,1104,Beaver Street Brewery & Whistle Stop Cafe,Flagstaff,Arizona,11 S Beaver St,86001-5500,United States,35.1965586,-111.6509947
 1909,4742,Ukiah Brewing Co.,Ukiah,California,102 S. State St.,95482,United States,39.1497971,-123.2078728
@@ -1916,7 +1916,7 @@
 1914,8674,Oregon Trader Brewing Company,Albany,Oregon,140 Hill St. NE,97321,United States,44.6527849,-123.0934734
 1915,556,City Steam Brewery Café,Hartford,Connecticut,942 Main St,06103-1214,United States,41.7678325,-72.672893
 1916,4632,Pumphouse Brewery,Longmont,Colorado,540 Main Street,80501,United States,40.1687378,-105.102082
-1917,1422,Melanie Brewing Company,La Crosse,Wisconsin,925 South Third Street,54601,United States,43.8041972,-91.25454669999999
+1917,1422,Melanie Brewing Company,La Crosse,Wisconsin,925 South Third Street,54601,United States,43.8041972,-91.2545467
 1918,18130,Aspen Brewing Co.,Aspen,Colorado,557 N. Mill Street,81611,United States,39.194042,-106.8180112
 1919,16285,Weasel Boy Brewing Company,Zanesville,Ohio,126 Muskingum Ave.,43701,United States,39.9363831,-82.0096749
 1920,4732,McMenamins Six Arms,Seattle,Washington,300 E Pike St.,98122,United States,47.6142274,-122.327609
@@ -1931,16 +1931,16 @@
 1929,1098,Olde Wyndham Brewery,Willimantic,Connecticut,322 Main St,06226-3152,United States,41.71077289999999,-72.2047322
 1930,12789,Water Street Brewery,Delafield,Wisconsin,3191 Golf Road,53018,United States,43.0524472,-88.366312
 1931,11006,Amicas,Salida,Colorado,136 East Second Street,81201,United States,38.5352187,-105.9916317
-1932,24822,Parish Brewing Company,Broussard,Louisiana,229 Jared Dr,70518-4362,United States,30.1592366,-91.94848619999999
-1933,6339,The Dodging Duck Brewhaus,Boerne,Texas,402 River Road,78006,United States,29.7896473,-98.72594219999999
-1934,21153,Broadway Brewery & Restaurant,Columbia,Missouri,816 E Broadway,65201-4898,United States,38.9512173,-92.32797860000001
+1932,24822,Parish Brewing Company,Broussard,Louisiana,229 Jared Dr,70518-4362,United States,30.1592366,-91.9484862
+1933,6339,The Dodging Duck Brewhaus,Boerne,Texas,402 River Road,78006,United States,29.7896473,-98.7259422
+1934,21153,Broadway Brewery & Restaurant,Columbia,Missouri,816 E Broadway,65201-4898,United States,38.9512173,-92.3279786
 1935,16261,Horseheads Brewing Inc.,Horseheads,New York,250 Old Ithaca Rd.,14845,United States,42.1833434,-76.8121316
 1936,740,Bank Street Brewing,Stamford,Connecticut,65 Bank St,06901-3007,United States,41.0525453,-73.53972569999999
 1937,1937,"Swashbuckler Brewing Co, LTD",Manheim,Pennsylvania,2775 Lebanon Road,17545,United States,40.22761089999999,-76.4292375
 1938,25800,The Wrecking Bar,Atlanta,Georgia,292 Moreland Ave NE,30307,United States,33.7622989,-84.3499736
 1939,20,Wachusett Brewing Company,Westminster,Massachusetts,175 State Road East,01473,United States,42.5584168,-71.8707812
 1940,26,Three Floyds Brewing Co. & Brewpub,Munster,Indiana,9750 Indiana Pkwy,46321-4004,United States,41.5355376,-87.51678629999999
-1941,17157,Potosi Brewing Company,Potosi,Wisconsin,209 S Main St,53820,United States,42.6769409,-90.72547809999999
+1941,17157,Potosi Brewing Company,Potosi,Wisconsin,209 S Main St,53820,United States,42.6769409,-90.7254781
 1942,7302,The Bobcat Café & Brewery,Bristol,Vermont,5 Main St,05443-1317,United States,44.1328604,-73.0781539
 1943,2345,Mill Creek Brewery,Kansas City,Missouri,4050 Pennsylvania Ave,64111-3024,United States,39.05368319999999,-94.5929968
 1944,24747,Dad & Dude's Breweria,Aurora,Colorado,6730 S. Cornerstar Way Suite D,80016,United States,39.5939476,-104.8064065
@@ -1960,13 +1960,13 @@
 1958,15063,Weiland Brewery Underground,Los Angeles,California,505 S Flower Street,90071,United States,34.05142379999999,-118.2564653
 1959,3915,Brewbakers Brewing,Visalia,California,219 E Main St,93277,United States,36.3299078,-119.2906594
 1960,9884,Elmwood Brewing Company,Elmwood,Illinois,118 E. Main St,61529,United States,40.7777241,-89.9651228
-1961,14942,Big Stick Brew Company,Krebs,Oklahoma,PO Box 66,74554-0066,United States,34.9278748,-95.71582210000001
+1961,14942,Big Stick Brew Company,Krebs,Oklahoma,PO Box 66,74554-0066,United States,34.9278748,-95.7158221
 1962,22536,Airways Brewing Company,Kent,Washington,8611 S 212th St,98031,United States,47.4117135,-122.2247403
 1963,9969,Rahr & Sons Brewing Company,Fort Worth,Texas,701 Galveston Ave,76104,United States,32.7370225,-97.3269313
 1964,11085,C.B. & Potts,Westminster,Colorado,1257 West 120th Ave,80234,United States,39.9149611,-105.0007264
 1965,3543,Weiland Brewery Restaurant,Los Angeles,California,400 E. 1st St.,90012,United States,34.048959,-118.2389358
 1966,4282,Keoki Brewing Company,Lihue,Hawaii,2976 Aukele St Ste B7,96766-1445,United States,21.9659617,-159.3559924
-1967,7354,Upper Mississippi Brewing,Clinton,Iowa,132 6th Ave S,52732-4103,United States,41.840203,-90.18735989999999
+1967,7354,Upper Mississippi Brewing,Clinton,Iowa,132 6th Ave S,52732-4103,United States,41.840203,-90.1873599
 1968,13371,Voodoo Brewing Company,Meadville,Pennsylvania,215 Arch St,16335,United States,41.6373557,-80.1546767
 1969,4738,Grand Lake Brewing Company,Grand Lake,Colorado,9921 U.S. Highway 34,80447,United States,40.1961011,-105.8766004
 1970,13837,Ale Asylum,Madison,Wisconsin,2002 Pankratz St.,53704,United States,43.1205797,-89.35418639999999
@@ -2019,10 +2019,10 @@
 2017,26967,Port Jeff Brewing Company,Port Jefferson,New York,22 Mill Creek Road,11777,United States,40.9458192,-73.06962709999999
 2018,979,Bonnema Brewing Company,Atascadero,California,6900 El Camino Real,93422,United States,35.4873113,-120.6672174
 2019,11974,Leelanau Brewing Company,Lake Leelanau,Michigan,473 North Manitou Trail West,49653,United States,44.9884218,-85.7729633
-2020,18854,New Orleans Lager & Ale Brewing Company (NOLA),New Orleans,Louisiana,3001 Tchoupitoulas St,70115-1039,United States,29.9200497,-90.08121589999999
+2020,18854,New Orleans Lager & Ale Brewing Company (NOLA),New Orleans,Louisiana,3001 Tchoupitoulas St,70115-1039,United States,29.9200497,-90.0812159
 2021,18250,Brewers Union Local 180,Oakridge,Oregon,48329 E 1st St,97463,United States,43.74797,-122.456846
 2022,8155,Kingdom Brewers,West Burke,Vermont,PO Box 201,05871-0201,United States,44.64144170000001,-71.978707
-2023,2143,75th Street Brewery,Kansas City,Missouri,520 W 75th St,64114-1513,United States,38.9926342,-94.59595399999999
+2023,2143,75th Street Brewery,Kansas City,Missouri,520 W 75th St,64114-1513,United States,38.9926342,-94.595954
 2024,941,Browning's Brewery,Louisville,Kentucky,401 E Main St,40202-1110,United States,38.25643669999999,-85.7445522
 2025,131,Rocky Bay Brewing Company,Rockland,Maine,230 Park St,04841-2126,United States,44.10118,-69.1255181
 2026,8325,Cape Ann Brewing Company,Gloucester,Massachusetts,11 Rogers Street,01930,United States,42.6112138,-70.6651298
@@ -2084,7 +2084,7 @@
 2082,596,Portsmouth Brewery,Portsmouth,New Hampshire,56 Market St,03801-3705,United States,43.077901,-70.7577566
 2083,747,General Lafayette Inn & Brewery,Lafayette Hill,Pennsylvania,646 Germantown Pike,19444,United States,40.0842208,-75.25032159999999
 2084,63,Deschutes Brewery,Bend,Oregon,901 SW Simpson Ave,97702,United States,44.0469746,-121.3222498
-2085,17863,(512) Brewing Company,Austin,Texas,407 Radam Ln,78745-1197,United States,30.2227388,-97.76955749999999
+2085,17863,(512) Brewing Company,Austin,Texas,407 Radam Ln,78745-1197,United States,30.2227388,-97.7695575
 2086,2453,On Tap,San Diego,California,4353 La Jolla Village Dr.,92122,United States,32.86983379999999,-117.2121246
 2087,21257,Wolf Hills Brewing Company,Abingdon,Virginia,149 Deadmore Street SE,24210,United States,36.712764,-81.964368
 2088,9793,Heinzelmännchen Brewery,Sylva,North Carolina,545 Mill St,28779,United States,35.3737917,-83.2225136
@@ -2155,7 +2155,7 @@
 2153,4412,B.W. Beer Works USA,Baltimore,Maryland,PO Box 9829,21284-9829,United States,39.2903848,-76.6121893
 2154,213,Narragansett Brewing Co.,Providence,Rhode Island,271 Tockwotton Street,02903,United States,41.8185153,-71.3904225
 2155,23344,Chattanooga Brewing Company,Chattanooga,Tennessee,1804 Chestnut St,37408-1027,United States,35.0360211,-85.3143891
-2156,2481,Bricktown Brewery & Blackwater Grill,Dubuque,Iowa,299 Main St,52001-6930,United States,42.4966068,-90.66497849999999
+2156,2481,Bricktown Brewery & Blackwater Grill,Dubuque,Iowa,299 Main St,52001-6930,United States,42.4966068,-90.6649785
 2157,4234,Hoster Brewing Company,Columbus,Ohio,760 Harmon Ave.,43223,United States,39.94476969999999,-83.0152822
 2158,19480,Colorado Brewing Company & Boulder Draft House,Boulder,Colorado,2027 13th St,80302,United States,40.018848,-105.2790964
 2159,1725,Hilltop Brewing Company,Virginia Beach,Virginia,"1556 Laskin Road, #134",23451,United States,36.8537279,-76.0166096
@@ -2180,7 +2180,7 @@
 2178,22959,Outpost Natural Foods,Milwaukee,Wisconsin,100 E CAPITOL DR,53212,United States,43.0897709,-87.90996779999999
 2179,11835,Eugene City Brewery,Eugene,Oregon,844 Olive St,97401,United States,44.05054579999999,-123.094662
 2180,13077,Cowtown Brewing Company,Columbus,Ohio,1799 W. 5th Avenue,43212,United States,39.98900889999999,-83.05479179999999
-2181,24007,Black Swan Brewpub,Plainfield,Indiana,2067 E Hadley Rd.,46168,United States,39.6742771,-86.3731626
+2181,24007,Black Swan Brewpub,Plainfield,Indiana,2067 E Hadley Rd.,46168,United States,39.6749122,-86.37098069999999
 2182,24146,Jalehouse Beer (Turtle Distributing Co.),Sarasota,Florida,1251 Commerce Blvd. S.,34243,United States,27.4079674,-82.5499059
 2183,27262,House Of Brews,Madison,Wisconsin,4539 Helgesen Dr,53718,United States,43.06648819999999,-89.3054259
 2184,10667,Cornerstone Brewing Company,Berea,Ohio,58 Front Street,44017,United States,41.36691099999999,-81.85265400000002
@@ -2217,7 +2217,7 @@
 2215,23697,Sutter Buttes Brewing,Yuba City,California,421 Center St.,95991,United States,39.132128,-121.6102892
 2216,1944,Cally's Restaurant and Brewing Co.,Harrisonburg,Virginia,41 Court Square,22801,United States,38.4498575,-78.8697159
 2217,2447,Coronado Brewing Company,Coronado,California,170 Orange Ave,92118,United States,32.6977694,-117.1732329
-2218,3938,Bandana Brewery,Mankato,Minnesota,302 N. Plainview Avenue,56001,United States,44.16303660000001,-93.97140809999999
+2218,3938,Bandana Brewery,Mankato,Minnesota,302 N. Plainview Avenue,56001,United States,44.16303660000001,-93.9714081
 2219,4704,Murphy's Wagon Wheel,Hastings,Nebraska,107 N Lincoln Ave,68901-5116,United States,40.5845121,-98.3916122
 2220,25710,Logsdon Farmhouse Ales,Washougal,Washington,1834 Main St,98671,United States,45.578261,-122.3519432
 2221,3749,Seven Bridges Grille And Brewery,Jacksonville,Florida,9735 Gate Parkway N.,32256,United States,30.2616456,-81.5537722
@@ -2257,7 +2257,7 @@
 2255,16086,Quigley's Pint & Plate,Pawleys Island,South Carolina,257 Willbrook Blvd,29585-7789,United States,33.4850395,-79.1004696
 2256,835,Barley Creek Brewing Company,Tannersville,Pennsylvania,Sullivan Trail & Camelback Road,18372,United States,41.0523769,-75.32792789999999
 2257,763,Moonlight Brewing Company,Santa Rosa,California,3350 Coffey Ln Ste A,95403-7412,United States,38.4716214,-122.7445863
-2258,24776,Public House Brewing Company,Rolla,Missouri,600 N Rolla St,65401-3111,United States,37.9488601,-91.77221519999999
+2258,24776,Public House Brewing Company,Rolla,Missouri,600 N Rolla St,65401-3111,United States,37.9488601,-91.7722152
 2259,25900,Grayton Beer Company,Santa Rosa Beach,Florida,217 Serenoa Rd,32459-6099,United States,30.3427309,-86.0676958
 2260,23076,Grimm Brothers Brewhouse,Loveland,Colorado,623 N Denver Ave,80537,United States,40.3967058,-105.0469349
 2261,14563,Sherwood Brewing Company,Shelby Township,Michigan,45689 Hayes Rd.,48315,United States,42.6320266,-82.9750688
@@ -2310,13 +2310,13 @@
 2308,27035,The Bronx Brewery,Bronx,New York,856 E 136th St,10454,United States,40.8019185,-73.9105843
 2309,643,The Brü Rm. at BAR,New Haven,Connecticut,254 Crown St,06511-6610,United States,41.3060838,-72.9303923
 2310,3240,West Brothers Brewery,Eugene,Oregon,844 Olive Street,94401,United States,44.05054579999999,-123.094662
-2311,25622,Twisted X Brewing Company,Dripping Springs,Texas,23455 W RR 150,78620,United States,30.16513309999999,-98.08475829999999
+2311,25622,Twisted X Brewing Company,Dripping Springs,Texas,23455 W RR 150,78620,United States,30.16513309999999,-98.0847583
 2312,981,Broken Drum Brewery And Wood Grill,San Rafael,California,1132 Fourth St.,94901,United States,37.9733896,-122.5290004
 2313,16759,Southern Star Brewing Company,Conroe,Texas,1207 N FM 3083 Rd E,77303-1875,United States,30.3473229,-95.4349139
 2314,24153,Sanford's Grub & Pub,Sheridan,Wyoming,1 E Alger St,82801-3911,United States,44.8009615,-106.9555474
 2315,27076,Fargo Brewing Company,Fargo,North Dakota,610 University Dr N,58102-4342,United States,46.8684678,-96.7980025
 2316,3475,Redwood Lodge,Flint,Michigan,5304 Gateway Center,48507,United States,42.9475074,-83.7229852
-2317,23672,Ranger Creek Brewing & Distilling,San Antonio,Texas,4834 Whirlwind Dr.,78217,United States,29.5293802,-98.39705049999999
+2317,23672,Ranger Creek Brewing & Distilling,San Antonio,Texas,4834 Whirlwind Dr.,78217,United States,29.5293802,-98.3970505
 2318,21755,Rascal Creek Brewing Co.,Merced,California,560 W 18th St,95340,United States,37.3025878,-120.4840974
 2319,4196,Copper Creek Brewing Company,Athens,Georgia,140 E Washington St,30601-2747,United States,33.9588825,-83.3766643
 2320,21651,Eagle Rock Brewery,Los Angeles,California,3065 Roswell St,90065,United States,34.1153225,-118.2438589

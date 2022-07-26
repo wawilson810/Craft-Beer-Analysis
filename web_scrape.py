@@ -15,9 +15,7 @@ def webscrape():
     csv = './Resources/testing.csv'
     if exists('./Resources/breweries.csv') == True and exists('./Resources/avg_rating.csv') == True:
         avg_rating_df = pd.read_csv('./Resources/avg_rating.csv')
-        avg_rating_df.drop(columns=['Unnamed: 0'], inplace=True)
         brewery_geo = pd.read_csv('./Resources/breweries.csv')
-        brewery_geo.drop(columns=['Unnamed: 0'], inplace=True)
     else:
         beer_db = pd.read_csv(csv_path)
         if exists(csv) == True:
@@ -97,6 +95,9 @@ def webscrape():
             avg_rating_df = pd.concat([avg_rating_df, mean_df], ignore_index = False, axis = 0)
         
         avg_rating_df.reset_index(drop = True, inplace = True)
+
+        avg_rating_df.index.rename('index', inplace=True)
+        brewery_geo.index.rename('index', inplace=True)
 
         avg_rating_df.to_csv('./Resources/avg_rating.csv')
         brewery_geo.to_csv('./Resources/breweries.csv')
