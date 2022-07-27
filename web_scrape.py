@@ -9,6 +9,7 @@ from config import g_key
 from sqlalchemy import create_engine
 from sqlalchemy import inspect
 from os.path import exists
+import matplotlib.pyplot as plt
 
 def webscrape():
     csv_path = './Resources/beer_reviews.csv'
@@ -121,5 +122,17 @@ def webscrape():
     brewery_geo.to_sql(name='brewery', con=engine, if_exists='replace', index=False)
 
     
+def barchart():
+    path = './Resources/breweries.csv'
+    breweries_df = pd.read_csv(path)
+    breweries_df.drop(columns=['Unnamed: 0'], inplace=True)
 
+    grouped_df = breweries_df.groupby('State')
+    updated = grouped_df['brewery_id'].count()
+    updated_df = pd.DataFrame(updated)
+    new_df = updated_df.sort_values('brewery_id', ascending=False)[0:20]
 
+    chart = new_df.plot(kind="bar", title="Top Twenty States with Most Breweries", color="red", figsize=(10,6))
+    chart.set_ylabel('Number of Breweries')
+    plt.legend('')
+    plt.savefig("Resources/barchart.png")
