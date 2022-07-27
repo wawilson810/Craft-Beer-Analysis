@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
 	webscrape()
+	barchart()
 	return render_template("index.html")
 
 
