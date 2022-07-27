@@ -103,6 +103,11 @@ def webscrape():
 
         avg_rating_df.to_csv('./Resources/avg_rating.csv')
         brewery_geo.to_csv('./Resources/breweries.csv')
+
+    combined_df = avg_rating_df.merge(brewery_geo, on = 'brewery_id')
+    combined_df.drop(columns=['brewery_name_x'], axis=1, inplace=True)
+    combined_df.rename(columns={'brewery_name_y':'brewery_name'}, inplace=True)
+    combined_df.to_json('./Resources/combined_df.json')
     
     rds_connection_string = "postgres:postgres@localhost:5432/beer_db"
     engine = create_engine(f'postgresql://{rds_connection_string}')

@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from web_scrape import webscrape
+from web_scrape import barchart
 
 app = Flask(__name__)
 
@@ -8,7 +9,7 @@ app = Flask(__name__)
 def index():
 	webscrape()
 	barchart()
-	return render_template("index.html")
+	return render_template("Project3.html")
 
 
 if __name__ == "__main__":
