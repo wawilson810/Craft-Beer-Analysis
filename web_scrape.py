@@ -57,8 +57,8 @@ def webscrape():
                                 brewery_db.loc[n, 'Address'] = full_add['Address']
                                 brewery_db.loc[n, 'Zip'] = full_add['Zip']
                                 brewery_db.loc[n, 'Country'] = full_add['Country']
+            browser.quit()	
             
-	    browser.quit()	
             brewery_db.to_csv('./Resources/testing.csv', index=False)
 
         brewery_clean = brewery_db.copy()
