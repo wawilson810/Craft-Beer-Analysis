@@ -1,7 +1,7 @@
 # Project-3-Craft-Beer-Analysis
 
 Before running the python code, please download the csv file from the following link. This csv file was too large to upload into the Github repository so we are including the link to download the csv file into this Readme file so it can be downloaded so the code can be run.
-[(https://www.kaggle.com/datasets/rdoume/beerreviews)]
+https://www.kaggle.com/datasets/rdoume/beerreviews
 
 There is a powerpoint file in the main repository, figures and csv files Resources. We have included the schema to send the data from Python to PostgresSQL. We have included our Javascript file in the static/js folder and the html file in the templates folder.
 
@@ -18,5 +18,5 @@ Project Description/Outline
 
 
 Datasets/ to be Used
-  [(https://www.kaggle.com/datasets/rdoume/beerreviews)]
+  https://www.kaggle.com/datasets/rdoume/beerreviews
   Webscrape the BeerAdvocate using the above dataset to get address information for the breweries
