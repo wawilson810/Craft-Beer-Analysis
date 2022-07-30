@@ -1,4 +1,4 @@
-const combinedData = "../../Resources/combinedData.csv";
+const combinedData = "./Resources\\combinedData.csv";
 
 
 d3.csv(combinedData).then(function(data){
@@ -30,15 +30,31 @@ d3.csv(combinedData).then(function(data){
 
     let plotReviews = [];
     let plotBeers = [];
+    let plotCount = [];
+
 
     for (let i=0; i < plotData.length; i++) {
         row = plotData[i];
-        if( plotBeers.includes(row.beer_style) )
+        var index = plotBeers.indexOf(row.beer_style);
+        if( index >= 0 )        // if there are mutliple beer type
+        {
+            // console.log("index", index);
+            plotReviews[index] += Number(row.review_overall); 
+            plotCount[index]++;
             continue;
-        plotReviews.push(row.review_overall);
+        }
+
+        plotReviews.push(Number(row.review_overall));
         plotBeers.push(row.beer_style);
-        
+        plotCount.push(1);
     }
+
+    // calculate the average
+    for(let i = 0; i < plotReviews.length; i++) {
+        plotReviews[i] /= plotCount[i];
+    }
+
+    // console.log(plotReviews);
 
     slicedReviews = plotReviews.slice(0,10).reverse();
     slicedBeers = plotBeers.slice(0,10).reverse();
@@ -57,7 +73,7 @@ d3.csv(combinedData).then(function(data){
 
     var barlayout = {
         title: `<b>Beer Style Reviews by State<b>`,
-        xaxis: { title: "Review Score"},
+        xaxis: { title: "Average Review Score"},
         yaxis: {title: "Beer Style"},
         autosize: false,
         margin: {
@@ -86,15 +102,28 @@ d3.csv(combinedData).then(function(data){
 
         plotReviews = [];
         plotBeers = [];
+        plotCount = [];
 
 
         for (let i=0; i < dataset.length; i++) {
             row = dataset[i];
 
-            if( plotBeers.includes(row.beer_style) )
+            var index = plotBeers.indexOf(row.beer_style);
+            if( index >= 0 )        // if there are mutliple beer type
+            {
+                plotReviews[index] += Number(row.review_overall); 
+                plotCount[index]++;
                 continue;
-            plotReviews.push(row.review_overall);
+            }
+
+            plotReviews.push(Number(row.review_overall));
             plotBeers.push(row.beer_style);
+            plotCount.push(1);
+        }
+    
+        // calculate the average
+        for(let i = 0; i < plotReviews.length; i++) {
+            plotReviews[i] /= plotCount[i];
         }
 
         top10Reviews = plotReviews.slice(0,10).reverse();
