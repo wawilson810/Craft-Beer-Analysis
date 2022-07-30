@@ -115,6 +115,12 @@ def webscrape():
     avg_rating_df['brewery_id'] = avg_rating_df['brewery_id'].astype(np.int64)
     avg_rating_df['beer_id'] = avg_rating_df['beer_id'].astype(float)
 
+    combinedData = avg_rating_df.merge(brewery_geo, on='brewery_id', how='outer')
+    combinedData = combinedData[['brewery_id', 'brewery_name_x', 'beer_style', 'beer_name', 'beer_id', 'review_overall', 'City', 'State', 'Address']]
+    combinedData = combinedData.rename(columns={'brewery_name_x': 'brewery_name'})
+    combinedData = combinedData.loc[combinedData['review_overall']>4,:]
+    combinedData.to_csv("./Resources/combinedData.csv")
+
     brewery_geo.rename(columns={'City': 'city',
                              'State': 'state',
                              'Address': 'address',

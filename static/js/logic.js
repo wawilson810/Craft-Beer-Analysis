@@ -1,5 +1,5 @@
 // data
-const dataTable = data;
+const path = 'combined_df.json';
 
 //build map data table 
 
@@ -15,8 +15,11 @@ const dataTable = data;
     zips = [];
     countries = [];
 
-    Object.keys(data).forEach(function(key) {
-        console.log(key, data[key]);
+    const dataPromise = d3.json(path);
+    console.log("Data Promise: ", dataPromise);
+
+    var beer_data = dataPromise.then(function(data) {
+      console.log("json: ", data);
 
     });
 

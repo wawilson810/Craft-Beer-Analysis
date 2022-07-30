@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
 	webscrape()
 	barchart()
-	return render_template("Project3.html")
+	return render_template("index.html")
 
 
 if __name__ == "__main__":
