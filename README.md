@@ -17,6 +17,6 @@ Project Description/Outline
   3. The third visualization was created to show, in a bubble chart, the ratings distribution by region. The states were grouped into regions and this visualization was created to also include a dropdown to be able to switch between the different regions of the United States to get updated information.
 
 
-Datasets/ to be Used
-  https://www.kaggle.com/datasets/rdoume/beerreviews
-  Webscrape the BeerAdvocate using the above dataset to get address information for the breweries
+Datasets to be Used
+  1. https://www.kaggle.com/datasets/rdoume/beerreviews
+  2. Webscrape the BeerAdvocate using the above dataset to get address information for the breweries
