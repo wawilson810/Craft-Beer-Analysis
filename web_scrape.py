@@ -143,7 +143,8 @@ def barchart():
     updated_df = pd.DataFrame(updated)
     new_df = updated_df.sort_values('brewery_id', ascending=False)[0:20]
 
-    chart = new_df.plot(kind="bar", title="Top Twenty States with Most Breweries", color="red", figsize=(10,10))
+    chart = new_df.plot(kind="bar", title="Top Twenty States with Most Breweries", color="red", figsize=(10,6))
     chart.set_ylabel('Number of Breweries')
+    chart.set_xlabel('State')
     plt.legend('')
-    plt.savefig("Resources/barchart.png")
+    plt.savefig("Resources/barchart.png", format='png', bbox_inches = "tight")
