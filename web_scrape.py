@@ -107,7 +107,7 @@ def webscrape():
     combined_df = avg_rating_df.merge(brewery_geo, on = 'brewery_id')
     combined_df.drop(columns=['brewery_name_x'], axis=1, inplace=True)
     combined_df.rename(columns={'brewery_name_y':'brewery_name'}, inplace=True)
-    combined_df.to_json('./Resources/combined_df.json', orient='records')
+    combined_df.to_json("combined_df.json", orient='records')
     
     rds_connection_string = "postgres:postgres@localhost:5432/beer_db"
     engine = create_engine(f'postgresql://{rds_connection_string}')
@@ -116,8 +116,8 @@ def webscrape():
     avg_rating_df['beer_id'] = avg_rating_df['beer_id'].astype(float)
 
     combinedData = avg_rating_df.merge(brewery_geo, on='brewery_id', how='outer')
-    combinedData = combinedData[['brewery_id', 'brewery_name_x', 'beer_style', 'beer_name', 'beer_id', 'review_overall', 'City', 'State', 'Address']]
-    combinedData = combinedData.rename(columns={'brewery_name_x': 'brewery_name'})
+    combinedData = combinedData.rename(columns={'brewery_name_x': 'brewery_name', 'city': 'City','state': 'State', 'address':'Address'})
+    combinedData = combinedData[['brewery_id', 'brewery_name', 'beer_style', 'beer_name', 'beer_id', 'review_overall', 'City', 'State', 'Address']]
     combinedData = combinedData.loc[combinedData['review_overall']>4,:]
     combinedData.to_csv("./Resources/combinedData.csv")
 
@@ -136,14 +136,14 @@ def webscrape():
 def barchart():
     path = './Resources/breweries.csv'
     breweries_df = pd.read_csv(path)
-    breweries_df.drop(columns=['Unnamed: 0'], inplace=True)
+    #breweries_df.drop(columns=['Unnamed: 0'], inplace=True)
 
-    grouped_df = breweries_df.groupby('State')
+    grouped_df = breweries_df.groupby('state')
     updated = grouped_df['brewery_id'].count()
     updated_df = pd.DataFrame(updated)
     new_df = updated_df.sort_values('brewery_id', ascending=False)[0:20]
 
-    chart = new_df.plot(kind="bar", title="Top Twenty States with Most Breweries", color="red", figsize=(10,6))
+    chart = new_df.plot(kind="bar", title="Top Twenty States with Most Breweries", color="red", figsize=(10,10))
     chart.set_ylabel('Number of Breweries')
     plt.legend('')
     plt.savefig("Resources/barchart.png")

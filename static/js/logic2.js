@@ -1,4 +1,4 @@
-const combinedData = "./Resources/combinedData.csv";
+const combinedData = "../../Resources/combinedData.csv";
 
 
 d3.csv(combinedData).then(function(data){
